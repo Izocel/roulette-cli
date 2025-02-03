@@ -1,5 +1,8 @@
 https://www.roulettestar.com/guide/probability/
 
+
+![american-roulette-probabilities](https://github.com/user-attachments/assets/0611f62b-d764-4fea-9517-b84f001493b0)
+
 In roulette, the payout depends on the type of bet you place. The house will give you back your original bet plus any winnings based on the odds of that specific bet. Here’s a summary of how it works for different bet types:
 
 1. **Even-Money Bets (1:1 Payout):**
