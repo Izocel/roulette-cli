@@ -3,6 +3,9 @@ import { JsonBind } from "../commands/MainEntry.js";
 import { BetPossibilities } from "../Game/GameRules.js";
 import { Player } from "./Player.js";
 
+// BBC strategy (big, black, columns)
+// https://www.youtube.com/watch?v=rMcWDRGIyhk&t=621s
+
 const DefaultsBets = [
   {
     value: 0.0,
@@ -58,8 +61,6 @@ const DefaultsBets = [
   },
 ];
 
-// BBC strategy (big, black, columns)
-// https://www.youtube.com/watch?v=rMcWDRGIyhk&t=621s
 class BBCPlayer extends Player {
   name = "BBCPlayer";
   closeAllOnLoser = false;

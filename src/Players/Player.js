@@ -1,4 +1,6 @@
-import { spinner } from "../commands/MainEntry.js";
+import { appendFileSync } from "fs";
+import { join } from "path";
+import { __exportsPath, spinner, ymd } from "../commands/MainEntry.js";
 
 export class Player {
   bets = [];
@@ -143,9 +145,8 @@ export class Player {
   async onReport(reportName) {
     this.updateStats();
     console.log();
-    console.log("PlayerReport:", reportName);
-    console.log({
-      name: this.name,
+    const obj = {
+      name: this.name + " - " + reportName,
       balance: this.balance,
       pnlTracker: this.pnlTracker,
       maxBalance: this.maxBalance,
@@ -161,7 +162,11 @@ export class Player {
           name: b.name,
         };
       }),
-    });
+    };
+    console.log();
+    console.log(obj);
+    const filePath = join(__exportsPath, `${this.name}-Results-${ymd}.json`);
+    appendFileSync(filePath, JSON.stringify(obj, null, 2) + ",\n");
   }
 
   onLeave() {

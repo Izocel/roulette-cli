@@ -5,8 +5,8 @@ const configs = {
 
   game: {
     players: [],
-    totalSpins: 10_000,
     type: "American",
+    totalSpins: (1 * 8 * 60) / (32 / 60), // 1 days x 8h working shift (32 sec. / spins)
 
     lastResults: {
       spin: 0,

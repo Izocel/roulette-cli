@@ -1,4 +1,4 @@
-import { existsSync, mkdirSync } from "fs";
+import { existsSync, mkdirSync, readdirSync, unlinkSync } from "fs";
 import ora from "ora";
 import { join } from "path";
 import { fileURLToPath } from "url";
@@ -6,13 +6,14 @@ import { AppConfigs } from "../configs/AppConfigs.js";
 import { HouseTurnAction } from "./HouseTurnAction.js";
 import { InitPlayersAction } from "./InitPlayersAction.js";
 
-export const __rootPath = join(fileURLToPath(import.meta.url), "../../");
-export const __exportsPath = join(__rootPath, "exports/");
+export const __rootPath = join(fileURLToPath(import.meta.url), "../../../");
 export const __hotfoldersPath = join(__rootPath, "hot-folders/");
+export const __exportsPath = join(__rootPath, "exports/");
 
 export let configs = JsonBind(AppConfigs);
 export let game = configs.game;
 export const now = new Date().toISOString();
+export const ymd = now.split("T")[0];
 
 export const spinner = ora().start();
 
@@ -22,6 +23,11 @@ export async function MainEntry(args) {
   if (!existsSync(__exportsPath)) {
     mkdirSync(__exportsPath);
   }
+
+  for (const file of readdirSync(__exportsPath)) {
+    unlinkSync(join(__exportsPath, file));
+  }
+
   if (!existsSync(__hotfoldersPath)) {
     mkdirSync(__hotfoldersPath);
   }

@@ -1,0 +1,6300 @@
+{
+  "spin": 1,
+  "isEven": true,
+  "color": "black",
+  "number": 8,
+  "isPositive": true
+},
+{
+  "spin": 2,
+  "isEven": false,
+  "color": "green",
+  "number": -1,
+  "isPositive": false
+},
+{
+  "spin": 3,
+  "isEven": false,
+  "color": "red",
+  "number": 19,
+  "isPositive": true
+},
+{
+  "spin": 4,
+  "isEven": false,
+  "color": "red",
+  "number": 9,
+  "isPositive": true
+},
+{
+  "spin": 5,
+  "isEven": true,
+  "color": "black",
+  "number": 8,
+  "isPositive": true
+},
+{
+  "spin": 6,
+  "isEven": true,
+  "color": "black",
+  "number": 26,
+  "isPositive": true
+},
+{
+  "spin": 7,
+  "isEven": false,
+  "color": "red",
+  "number": 27,
+  "isPositive": true
+},
+{
+  "spin": 8,
+  "isEven": true,
+  "color": "black",
+  "number": 20,
+  "isPositive": true
+},
+{
+  "spin": 9,
+  "isEven": false,
+  "color": "black",
+  "number": 33,
+  "isPositive": true
+},
+{
+  "spin": 10,
+  "isEven": false,
+  "color": "green",
+  "number": 0,
+  "isPositive": false
+},
+{
+  "spin": 11,
+  "isEven": false,
+  "color": "red",
+  "number": 21,
+  "isPositive": true
+},
+{
+  "spin": 12,
+  "isEven": true,
+  "color": "black",
+  "number": 2,
+  "isPositive": true
+},
+{
+  "spin": 13,
+  "isEven": false,
+  "color": "red",
+  "number": 19,
+  "isPositive": true
+},
+{
+  "spin": 14,
+  "isEven": false,
+  "color": "black",
+  "number": 11,
+  "isPositive": true
+},
+{
+  "spin": 15,
+  "isEven": true,
+  "color": "red",
+  "number": 12,
+  "isPositive": true
+},
+{
+  "spin": 16,
+  "isEven": false,
+  "color": "black",
+  "number": 13,
+  "isPositive": true
+},
+{
+  "spin": 17,
+  "isEven": true,
+  "color": "black",
+  "number": 28,
+  "isPositive": true
+},
+{
+  "spin": 18,
+  "isEven": true,
+  "color": "red",
+  "number": 32,
+  "isPositive": true
+},
+{
+  "spin": 19,
+  "isEven": true,
+  "color": "red",
+  "number": 30,
+  "isPositive": true
+},
+{
+  "spin": 20,
+  "isEven": false,
+  "color": "black",
+  "number": 15,
+  "isPositive": true
+},
+{
+  "spin": 21,
+  "isEven": true,
+  "color": "red",
+  "number": 36,
+  "isPositive": true
+},
+{
+  "spin": 22,
+  "isEven": false,
+  "color": "black",
+  "number": 17,
+  "isPositive": true
+},
+{
+  "spin": 23,
+  "isEven": false,
+  "color": "red",
+  "number": 27,
+  "isPositive": true
+},
+{
+  "spin": 24,
+  "isEven": true,
+  "color": "black",
+  "number": 8,
+  "isPositive": true
+},
+{
+  "spin": 25,
+  "isEven": false,
+  "color": "red",
+  "number": 23,
+  "isPositive": true
+},
+{
+  "spin": 26,
+  "isEven": false,
+  "color": "black",
+  "number": 35,
+  "isPositive": true
+},
+{
+  "spin": 27,
+  "isEven": true,
+  "color": "red",
+  "number": 16,
+  "isPositive": true
+},
+{
+  "spin": 28,
+  "isEven": false,
+  "color": "red",
+  "number": 9,
+  "isPositive": true
+},
+{
+  "spin": 29,
+  "isEven": false,
+  "color": "red",
+  "number": 25,
+  "isPositive": true
+},
+{
+  "spin": 30,
+  "isEven": false,
+  "color": "black",
+  "number": 31,
+  "isPositive": true
+},
+{
+  "spin": 31,
+  "isEven": false,
+  "color": "red",
+  "number": 7,
+  "isPositive": true
+},
+{
+  "spin": 32,
+  "isEven": false,
+  "color": "black",
+  "number": 29,
+  "isPositive": true
+},
+{
+  "spin": 33,
+  "isEven": false,
+  "color": "black",
+  "number": 33,
+  "isPositive": true
+},
+{
+  "spin": 34,
+  "isEven": true,
+  "color": "black",
+  "number": 24,
+  "isPositive": true
+},
+{
+  "spin": 35,
+  "isEven": true,
+  "color": "red",
+  "number": 34,
+  "isPositive": true
+},
+{
+  "spin": 36,
+  "isEven": true,
+  "color": "black",
+  "number": 4,
+  "isPositive": true
+},
+{
+  "spin": 37,
+  "isEven": true,
+  "color": "black",
+  "number": 20,
+  "isPositive": true
+},
+{
+  "spin": 38,
+  "isEven": false,
+  "color": "red",
+  "number": 9,
+  "isPositive": true
+},
+{
+  "spin": 39,
+  "isEven": false,
+  "color": "black",
+  "number": 15,
+  "isPositive": true
+},
+{
+  "spin": 40,
+  "isEven": false,
+  "color": "red",
+  "number": 19,
+  "isPositive": true
+},
+{
+  "spin": 41,
+  "isEven": false,
+  "color": "red",
+  "number": 1,
+  "isPositive": true
+},
+{
+  "spin": 42,
+  "isEven": false,
+  "color": "black",
+  "number": 13,
+  "isPositive": true
+},
+{
+  "spin": 43,
+  "isEven": false,
+  "color": "red",
+  "number": 21,
+  "isPositive": true
+},
+{
+  "spin": 44,
+  "isEven": false,
+  "color": "red",
+  "number": 21,
+  "isPositive": true
+},
+{
+  "spin": 45,
+  "isEven": true,
+  "color": "black",
+  "number": 26,
+  "isPositive": true
+},
+{
+  "spin": 46,
+  "isEven": false,
+  "color": "red",
+  "number": 5,
+  "isPositive": true
+},
+{
+  "spin": 47,
+  "isEven": false,
+  "color": "black",
+  "number": 17,
+  "isPositive": true
+},
+{
+  "spin": 48,
+  "isEven": true,
+  "color": "red",
+  "number": 34,
+  "isPositive": true
+},
+{
+  "spin": 49,
+  "isEven": false,
+  "color": "black",
+  "number": 35,
+  "isPositive": true
+},
+{
+  "spin": 50,
+  "isEven": true,
+  "color": "red",
+  "number": 32,
+  "isPositive": true
+},
+{
+  "spin": 51,
+  "isEven": true,
+  "color": "black",
+  "number": 8,
+  "isPositive": true
+},
+{
+  "spin": 52,
+  "isEven": true,
+  "color": "black",
+  "number": 4,
+  "isPositive": true
+},
+{
+  "spin": 53,
+  "isEven": true,
+  "color": "red",
+  "number": 30,
+  "isPositive": true
+},
+{
+  "spin": 54,
+  "isEven": true,
+  "color": "black",
+  "number": 26,
+  "isPositive": true
+},
+{
+  "spin": 55,
+  "isEven": false,
+  "color": "black",
+  "number": 17,
+  "isPositive": true
+},
+{
+  "spin": 56,
+  "isEven": true,
+  "color": "black",
+  "number": 20,
+  "isPositive": true
+},
+{
+  "spin": 57,
+  "isEven": false,
+  "color": "red",
+  "number": 23,
+  "isPositive": true
+},
+{
+  "spin": 58,
+  "isEven": true,
+  "color": "red",
+  "number": 34,
+  "isPositive": true
+},
+{
+  "spin": 59,
+  "isEven": false,
+  "color": "red",
+  "number": 1,
+  "isPositive": true
+},
+{
+  "spin": 60,
+  "isEven": false,
+  "color": "red",
+  "number": 25,
+  "isPositive": true
+},
+{
+  "spin": 61,
+  "isEven": true,
+  "color": "red",
+  "number": 34,
+  "isPositive": true
+},
+{
+  "spin": 62,
+  "isEven": false,
+  "color": "black",
+  "number": 33,
+  "isPositive": true
+},
+{
+  "spin": 63,
+  "isEven": true,
+  "color": "black",
+  "number": 22,
+  "isPositive": true
+},
+{
+  "spin": 64,
+  "isEven": false,
+  "color": "black",
+  "number": 33,
+  "isPositive": true
+},
+{
+  "spin": 65,
+  "isEven": true,
+  "color": "red",
+  "number": 14,
+  "isPositive": true
+},
+{
+  "spin": 66,
+  "isEven": false,
+  "color": "red",
+  "number": 1,
+  "isPositive": true
+},
+{
+  "spin": 67,
+  "isEven": false,
+  "color": "black",
+  "number": 17,
+  "isPositive": true
+},
+{
+  "spin": 68,
+  "isEven": true,
+  "color": "black",
+  "number": 26,
+  "isPositive": true
+},
+{
+  "spin": 69,
+  "isEven": false,
+  "color": "red",
+  "number": 1,
+  "isPositive": true
+},
+{
+  "spin": 70,
+  "isEven": false,
+  "color": "black",
+  "number": 11,
+  "isPositive": true
+},
+{
+  "spin": 71,
+  "isEven": true,
+  "color": "black",
+  "number": 2,
+  "isPositive": true
+},
+{
+  "spin": 72,
+  "isEven": true,
+  "color": "black",
+  "number": 22,
+  "isPositive": true
+},
+{
+  "spin": 73,
+  "isEven": false,
+  "color": "green",
+  "number": 0,
+  "isPositive": false
+},
+{
+  "spin": 74,
+  "isEven": false,
+  "color": "black",
+  "number": 15,
+  "isPositive": true
+},
+{
+  "spin": 75,
+  "isEven": true,
+  "color": "black",
+  "number": 10,
+  "isPositive": true
+},
+{
+  "spin": 76,
+  "isEven": false,
+  "color": "red",
+  "number": 7,
+  "isPositive": true
+},
+{
+  "spin": 77,
+  "isEven": true,
+  "color": "red",
+  "number": 36,
+  "isPositive": true
+},
+{
+  "spin": 78,
+  "isEven": false,
+  "color": "green",
+  "number": 0,
+  "isPositive": false
+},
+{
+  "spin": 79,
+  "isEven": false,
+  "color": "red",
+  "number": 21,
+  "isPositive": true
+},
+{
+  "spin": 80,
+  "isEven": true,
+  "color": "black",
+  "number": 4,
+  "isPositive": true
+},
+{
+  "spin": 81,
+  "isEven": false,
+  "color": "red",
+  "number": 25,
+  "isPositive": true
+},
+{
+  "spin": 82,
+  "isEven": true,
+  "color": "red",
+  "number": 12,
+  "isPositive": true
+},
+{
+  "spin": 83,
+  "isEven": false,
+  "color": "red",
+  "number": 5,
+  "isPositive": true
+},
+{
+  "spin": 84,
+  "isEven": true,
+  "color": "red",
+  "number": 18,
+  "isPositive": true
+},
+{
+  "spin": 85,
+  "isEven": false,
+  "color": "black",
+  "number": 33,
+  "isPositive": true
+},
+{
+  "spin": 86,
+  "isEven": false,
+  "color": "red",
+  "number": 23,
+  "isPositive": true
+},
+{
+  "spin": 87,
+  "isEven": false,
+  "color": "black",
+  "number": 17,
+  "isPositive": true
+},
+{
+  "spin": 88,
+  "isEven": false,
+  "color": "red",
+  "number": 27,
+  "isPositive": true
+},
+{
+  "spin": 89,
+  "isEven": true,
+  "color": "black",
+  "number": 26,
+  "isPositive": true
+},
+{
+  "spin": 90,
+  "isEven": false,
+  "color": "red",
+  "number": 3,
+  "isPositive": true
+},
+{
+  "spin": 91,
+  "isEven": false,
+  "color": "red",
+  "number": 27,
+  "isPositive": true
+},
+{
+  "spin": 92,
+  "isEven": false,
+  "color": "red",
+  "number": 21,
+  "isPositive": true
+},
+{
+  "spin": 93,
+  "isEven": false,
+  "color": "black",
+  "number": 31,
+  "isPositive": true
+},
+{
+  "spin": 94,
+  "isEven": false,
+  "color": "red",
+  "number": 27,
+  "isPositive": true
+},
+{
+  "spin": 95,
+  "isEven": false,
+  "color": "red",
+  "number": 7,
+  "isPositive": true
+},
+{
+  "spin": 96,
+  "isEven": false,
+  "color": "red",
+  "number": 9,
+  "isPositive": true
+},
+{
+  "spin": 97,
+  "isEven": true,
+  "color": "black",
+  "number": 24,
+  "isPositive": true
+},
+{
+  "spin": 98,
+  "isEven": false,
+  "color": "black",
+  "number": 31,
+  "isPositive": true
+},
+{
+  "spin": 99,
+  "isEven": false,
+  "color": "red",
+  "number": 27,
+  "isPositive": true
+},
+{
+  "spin": 100,
+  "isEven": false,
+  "color": "red",
+  "number": 27,
+  "isPositive": true
+},
+{
+  "spin": 101,
+  "isEven": false,
+  "color": "black",
+  "number": 33,
+  "isPositive": true
+},
+{
+  "spin": 102,
+  "isEven": true,
+  "color": "red",
+  "number": 30,
+  "isPositive": true
+},
+{
+  "spin": 103,
+  "isEven": false,
+  "color": "red",
+  "number": 21,
+  "isPositive": true
+},
+{
+  "spin": 104,
+  "isEven": false,
+  "color": "red",
+  "number": 7,
+  "isPositive": true
+},
+{
+  "spin": 105,
+  "isEven": true,
+  "color": "red",
+  "number": 18,
+  "isPositive": true
+},
+{
+  "spin": 106,
+  "isEven": true,
+  "color": "black",
+  "number": 22,
+  "isPositive": true
+},
+{
+  "spin": 107,
+  "isEven": false,
+  "color": "red",
+  "number": 19,
+  "isPositive": true
+},
+{
+  "spin": 108,
+  "isEven": true,
+  "color": "black",
+  "number": 26,
+  "isPositive": true
+},
+{
+  "spin": 109,
+  "isEven": true,
+  "color": "black",
+  "number": 4,
+  "isPositive": true
+},
+{
+  "spin": 110,
+  "isEven": false,
+  "color": "green",
+  "number": 0,
+  "isPositive": false
+},
+{
+  "spin": 111,
+  "isEven": false,
+  "color": "black",
+  "number": 11,
+  "isPositive": true
+},
+{
+  "spin": 112,
+  "isEven": true,
+  "color": "black",
+  "number": 24,
+  "isPositive": true
+},
+{
+  "spin": 113,
+  "isEven": true,
+  "color": "black",
+  "number": 20,
+  "isPositive": true
+},
+{
+  "spin": 114,
+  "isEven": true,
+  "color": "black",
+  "number": 8,
+  "isPositive": true
+},
+{
+  "spin": 115,
+  "isEven": false,
+  "color": "green",
+  "number": 0,
+  "isPositive": false
+},
+{
+  "spin": 116,
+  "isEven": true,
+  "color": "black",
+  "number": 2,
+  "isPositive": true
+},
+{
+  "spin": 117,
+  "isEven": false,
+  "color": "black",
+  "number": 17,
+  "isPositive": true
+},
+{
+  "spin": 118,
+  "isEven": true,
+  "color": "black",
+  "number": 22,
+  "isPositive": true
+},
+{
+  "spin": 119,
+  "isEven": true,
+  "color": "black",
+  "number": 8,
+  "isPositive": true
+},
+{
+  "spin": 120,
+  "isEven": false,
+  "color": "black",
+  "number": 31,
+  "isPositive": true
+},
+{
+  "spin": 121,
+  "isEven": false,
+  "color": "red",
+  "number": 3,
+  "isPositive": true
+},
+{
+  "spin": 122,
+  "isEven": false,
+  "color": "black",
+  "number": 11,
+  "isPositive": true
+},
+{
+  "spin": 123,
+  "isEven": false,
+  "color": "red",
+  "number": 3,
+  "isPositive": true
+},
+{
+  "spin": 124,
+  "isEven": false,
+  "color": "black",
+  "number": 31,
+  "isPositive": true
+},
+{
+  "spin": 125,
+  "isEven": false,
+  "color": "green",
+  "number": -1,
+  "isPositive": false
+},
+{
+  "spin": 126,
+  "isEven": true,
+  "color": "black",
+  "number": 8,
+  "isPositive": true
+},
+{
+  "spin": 127,
+  "isEven": true,
+  "color": "red",
+  "number": 32,
+  "isPositive": true
+},
+{
+  "spin": 128,
+  "isEven": false,
+  "color": "red",
+  "number": 9,
+  "isPositive": true
+},
+{
+  "spin": 129,
+  "isEven": true,
+  "color": "red",
+  "number": 16,
+  "isPositive": true
+},
+{
+  "spin": 130,
+  "isEven": false,
+  "color": "red",
+  "number": 19,
+  "isPositive": true
+},
+{
+  "spin": 131,
+  "isEven": false,
+  "color": "black",
+  "number": 13,
+  "isPositive": true
+},
+{
+  "spin": 132,
+  "isEven": false,
+  "color": "red",
+  "number": 1,
+  "isPositive": true
+},
+{
+  "spin": 133,
+  "isEven": false,
+  "color": "black",
+  "number": 17,
+  "isPositive": true
+},
+{
+  "spin": 134,
+  "isEven": false,
+  "color": "green",
+  "number": 0,
+  "isPositive": false
+},
+{
+  "spin": 135,
+  "isEven": false,
+  "color": "black",
+  "number": 13,
+  "isPositive": true
+},
+{
+  "spin": 136,
+  "isEven": true,
+  "color": "black",
+  "number": 26,
+  "isPositive": true
+},
+{
+  "spin": 137,
+  "isEven": false,
+  "color": "red",
+  "number": 9,
+  "isPositive": true
+},
+{
+  "spin": 138,
+  "isEven": true,
+  "color": "black",
+  "number": 2,
+  "isPositive": true
+},
+{
+  "spin": 139,
+  "isEven": false,
+  "color": "black",
+  "number": 29,
+  "isPositive": true
+},
+{
+  "spin": 140,
+  "isEven": true,
+  "color": "red",
+  "number": 18,
+  "isPositive": true
+},
+{
+  "spin": 141,
+  "isEven": true,
+  "color": "black",
+  "number": 24,
+  "isPositive": true
+},
+{
+  "spin": 142,
+  "isEven": false,
+  "color": "red",
+  "number": 3,
+  "isPositive": true
+},
+{
+  "spin": 143,
+  "isEven": false,
+  "color": "red",
+  "number": 7,
+  "isPositive": true
+},
+{
+  "spin": 144,
+  "isEven": false,
+  "color": "black",
+  "number": 13,
+  "isPositive": true
+},
+{
+  "spin": 145,
+  "isEven": false,
+  "color": "red",
+  "number": 25,
+  "isPositive": true
+},
+{
+  "spin": 146,
+  "isEven": true,
+  "color": "black",
+  "number": 10,
+  "isPositive": true
+},
+{
+  "spin": 147,
+  "isEven": true,
+  "color": "red",
+  "number": 34,
+  "isPositive": true
+},
+{
+  "spin": 148,
+  "isEven": true,
+  "color": "black",
+  "number": 24,
+  "isPositive": true
+},
+{
+  "spin": 149,
+  "isEven": true,
+  "color": "black",
+  "number": 20,
+  "isPositive": true
+},
+{
+  "spin": 150,
+  "isEven": false,
+  "color": "red",
+  "number": 9,
+  "isPositive": true
+},
+{
+  "spin": 151,
+  "isEven": false,
+  "color": "red",
+  "number": 7,
+  "isPositive": true
+},
+{
+  "spin": 152,
+  "isEven": true,
+  "color": "red",
+  "number": 14,
+  "isPositive": true
+},
+{
+  "spin": 153,
+  "isEven": false,
+  "color": "red",
+  "number": 1,
+  "isPositive": true
+},
+{
+  "spin": 154,
+  "isEven": false,
+  "color": "black",
+  "number": 13,
+  "isPositive": true
+},
+{
+  "spin": 155,
+  "isEven": true,
+  "color": "black",
+  "number": 26,
+  "isPositive": true
+},
+{
+  "spin": 156,
+  "isEven": true,
+  "color": "black",
+  "number": 8,
+  "isPositive": true
+},
+{
+  "spin": 157,
+  "isEven": true,
+  "color": "black",
+  "number": 28,
+  "isPositive": true
+},
+{
+  "spin": 158,
+  "isEven": true,
+  "color": "black",
+  "number": 10,
+  "isPositive": true
+},
+{
+  "spin": 159,
+  "isEven": false,
+  "color": "black",
+  "number": 13,
+  "isPositive": true
+},
+{
+  "spin": 160,
+  "isEven": false,
+  "color": "green",
+  "number": -1,
+  "isPositive": false
+},
+{
+  "spin": 161,
+  "isEven": false,
+  "color": "red",
+  "number": 27,
+  "isPositive": true
+},
+{
+  "spin": 162,
+  "isEven": false,
+  "color": "black",
+  "number": 35,
+  "isPositive": true
+},
+{
+  "spin": 163,
+  "isEven": false,
+  "color": "red",
+  "number": 23,
+  "isPositive": true
+},
+{
+  "spin": 164,
+  "isEven": true,
+  "color": "black",
+  "number": 8,
+  "isPositive": true
+},
+{
+  "spin": 165,
+  "isEven": false,
+  "color": "black",
+  "number": 29,
+  "isPositive": true
+},
+{
+  "spin": 166,
+  "isEven": true,
+  "color": "black",
+  "number": 24,
+  "isPositive": true
+},
+{
+  "spin": 167,
+  "isEven": false,
+  "color": "black",
+  "number": 35,
+  "isPositive": true
+},
+{
+  "spin": 168,
+  "isEven": false,
+  "color": "green",
+  "number": -1,
+  "isPositive": false
+},
+{
+  "spin": 169,
+  "isEven": false,
+  "color": "green",
+  "number": -1,
+  "isPositive": false
+},
+{
+  "spin": 170,
+  "isEven": true,
+  "color": "red",
+  "number": 32,
+  "isPositive": true
+},
+{
+  "spin": 171,
+  "isEven": true,
+  "color": "red",
+  "number": 30,
+  "isPositive": true
+},
+{
+  "spin": 172,
+  "isEven": false,
+  "color": "red",
+  "number": 9,
+  "isPositive": true
+},
+{
+  "spin": 173,
+  "isEven": false,
+  "color": "black",
+  "number": 15,
+  "isPositive": true
+},
+{
+  "spin": 174,
+  "isEven": true,
+  "color": "black",
+  "number": 8,
+  "isPositive": true
+},
+{
+  "spin": 175,
+  "isEven": true,
+  "color": "red",
+  "number": 12,
+  "isPositive": true
+},
+{
+  "spin": 176,
+  "isEven": true,
+  "color": "red",
+  "number": 16,
+  "isPositive": true
+},
+{
+  "spin": 177,
+  "isEven": false,
+  "color": "red",
+  "number": 9,
+  "isPositive": true
+},
+{
+  "spin": 178,
+  "isEven": true,
+  "color": "red",
+  "number": 30,
+  "isPositive": true
+},
+{
+  "spin": 179,
+  "isEven": true,
+  "color": "red",
+  "number": 32,
+  "isPositive": true
+},
+{
+  "spin": 180,
+  "isEven": true,
+  "color": "black",
+  "number": 6,
+  "isPositive": true
+},
+{
+  "spin": 181,
+  "isEven": false,
+  "color": "red",
+  "number": 23,
+  "isPositive": true
+},
+{
+  "spin": 182,
+  "isEven": false,
+  "color": "red",
+  "number": 3,
+  "isPositive": true
+},
+{
+  "spin": 183,
+  "isEven": true,
+  "color": "red",
+  "number": 32,
+  "isPositive": true
+},
+{
+  "spin": 184,
+  "isEven": false,
+  "color": "red",
+  "number": 27,
+  "isPositive": true
+},
+{
+  "spin": 185,
+  "isEven": true,
+  "color": "black",
+  "number": 6,
+  "isPositive": true
+},
+{
+  "spin": 186,
+  "isEven": false,
+  "color": "red",
+  "number": 23,
+  "isPositive": true
+},
+{
+  "spin": 187,
+  "isEven": true,
+  "color": "black",
+  "number": 8,
+  "isPositive": true
+},
+{
+  "spin": 188,
+  "isEven": false,
+  "color": "red",
+  "number": 19,
+  "isPositive": true
+},
+{
+  "spin": 189,
+  "isEven": false,
+  "color": "red",
+  "number": 7,
+  "isPositive": true
+},
+{
+  "spin": 190,
+  "isEven": true,
+  "color": "red",
+  "number": 34,
+  "isPositive": true
+},
+{
+  "spin": 191,
+  "isEven": true,
+  "color": "red",
+  "number": 18,
+  "isPositive": true
+},
+{
+  "spin": 192,
+  "isEven": true,
+  "color": "red",
+  "number": 34,
+  "isPositive": true
+},
+{
+  "spin": 193,
+  "isEven": false,
+  "color": "black",
+  "number": 13,
+  "isPositive": true
+},
+{
+  "spin": 194,
+  "isEven": false,
+  "color": "black",
+  "number": 35,
+  "isPositive": true
+},
+{
+  "spin": 195,
+  "isEven": false,
+  "color": "black",
+  "number": 29,
+  "isPositive": true
+},
+{
+  "spin": 196,
+  "isEven": true,
+  "color": "black",
+  "number": 20,
+  "isPositive": true
+},
+{
+  "spin": 197,
+  "isEven": false,
+  "color": "red",
+  "number": 23,
+  "isPositive": true
+},
+{
+  "spin": 198,
+  "isEven": false,
+  "color": "green",
+  "number": -1,
+  "isPositive": false
+},
+{
+  "spin": 199,
+  "isEven": false,
+  "color": "black",
+  "number": 15,
+  "isPositive": true
+},
+{
+  "spin": 200,
+  "isEven": true,
+  "color": "black",
+  "number": 26,
+  "isPositive": true
+},
+{
+  "spin": 201,
+  "isEven": false,
+  "color": "black",
+  "number": 17,
+  "isPositive": true
+},
+{
+  "spin": 202,
+  "isEven": false,
+  "color": "black",
+  "number": 35,
+  "isPositive": true
+},
+{
+  "spin": 203,
+  "isEven": false,
+  "color": "black",
+  "number": 17,
+  "isPositive": true
+},
+{
+  "spin": 204,
+  "isEven": true,
+  "color": "black",
+  "number": 2,
+  "isPositive": true
+},
+{
+  "spin": 205,
+  "isEven": false,
+  "color": "red",
+  "number": 19,
+  "isPositive": true
+},
+{
+  "spin": 206,
+  "isEven": false,
+  "color": "black",
+  "number": 15,
+  "isPositive": true
+},
+{
+  "spin": 207,
+  "isEven": false,
+  "color": "black",
+  "number": 13,
+  "isPositive": true
+},
+{
+  "spin": 208,
+  "isEven": false,
+  "color": "red",
+  "number": 7,
+  "isPositive": true
+},
+{
+  "spin": 209,
+  "isEven": false,
+  "color": "red",
+  "number": 25,
+  "isPositive": true
+},
+{
+  "spin": 210,
+  "isEven": true,
+  "color": "black",
+  "number": 6,
+  "isPositive": true
+},
+{
+  "spin": 211,
+  "isEven": false,
+  "color": "red",
+  "number": 23,
+  "isPositive": true
+},
+{
+  "spin": 212,
+  "isEven": true,
+  "color": "red",
+  "number": 32,
+  "isPositive": true
+},
+{
+  "spin": 213,
+  "isEven": false,
+  "color": "black",
+  "number": 15,
+  "isPositive": true
+},
+{
+  "spin": 214,
+  "isEven": false,
+  "color": "black",
+  "number": 13,
+  "isPositive": true
+},
+{
+  "spin": 215,
+  "isEven": true,
+  "color": "black",
+  "number": 4,
+  "isPositive": true
+},
+{
+  "spin": 216,
+  "isEven": false,
+  "color": "black",
+  "number": 11,
+  "isPositive": true
+},
+{
+  "spin": 217,
+  "isEven": false,
+  "color": "red",
+  "number": 21,
+  "isPositive": true
+},
+{
+  "spin": 218,
+  "isEven": false,
+  "color": "black",
+  "number": 15,
+  "isPositive": true
+},
+{
+  "spin": 219,
+  "isEven": true,
+  "color": "red",
+  "number": 36,
+  "isPositive": true
+},
+{
+  "spin": 220,
+  "isEven": false,
+  "color": "red",
+  "number": 25,
+  "isPositive": true
+},
+{
+  "spin": 221,
+  "isEven": false,
+  "color": "red",
+  "number": 21,
+  "isPositive": true
+},
+{
+  "spin": 222,
+  "isEven": true,
+  "color": "black",
+  "number": 26,
+  "isPositive": true
+},
+{
+  "spin": 223,
+  "isEven": true,
+  "color": "black",
+  "number": 6,
+  "isPositive": true
+},
+{
+  "spin": 224,
+  "isEven": true,
+  "color": "red",
+  "number": 32,
+  "isPositive": true
+},
+{
+  "spin": 225,
+  "isEven": false,
+  "color": "red",
+  "number": 23,
+  "isPositive": true
+},
+{
+  "spin": 226,
+  "isEven": false,
+  "color": "black",
+  "number": 35,
+  "isPositive": true
+},
+{
+  "spin": 227,
+  "isEven": true,
+  "color": "black",
+  "number": 22,
+  "isPositive": true
+},
+{
+  "spin": 228,
+  "isEven": true,
+  "color": "black",
+  "number": 24,
+  "isPositive": true
+},
+{
+  "spin": 229,
+  "isEven": true,
+  "color": "black",
+  "number": 10,
+  "isPositive": true
+},
+{
+  "spin": 230,
+  "isEven": true,
+  "color": "black",
+  "number": 6,
+  "isPositive": true
+},
+{
+  "spin": 231,
+  "isEven": true,
+  "color": "red",
+  "number": 14,
+  "isPositive": true
+},
+{
+  "spin": 232,
+  "isEven": true,
+  "color": "red",
+  "number": 30,
+  "isPositive": true
+},
+{
+  "spin": 233,
+  "isEven": true,
+  "color": "black",
+  "number": 20,
+  "isPositive": true
+},
+{
+  "spin": 234,
+  "isEven": false,
+  "color": "black",
+  "number": 35,
+  "isPositive": true
+},
+{
+  "spin": 235,
+  "isEven": true,
+  "color": "black",
+  "number": 4,
+  "isPositive": true
+},
+{
+  "spin": 236,
+  "isEven": false,
+  "color": "red",
+  "number": 7,
+  "isPositive": true
+},
+{
+  "spin": 237,
+  "isEven": true,
+  "color": "black",
+  "number": 2,
+  "isPositive": true
+},
+{
+  "spin": 238,
+  "isEven": true,
+  "color": "red",
+  "number": 12,
+  "isPositive": true
+},
+{
+  "spin": 239,
+  "isEven": true,
+  "color": "black",
+  "number": 10,
+  "isPositive": true
+},
+{
+  "spin": 240,
+  "isEven": false,
+  "color": "red",
+  "number": 3,
+  "isPositive": true
+},
+{
+  "spin": 241,
+  "isEven": false,
+  "color": "black",
+  "number": 13,
+  "isPositive": true
+},
+{
+  "spin": 242,
+  "isEven": true,
+  "color": "black",
+  "number": 6,
+  "isPositive": true
+},
+{
+  "spin": 243,
+  "isEven": true,
+  "color": "black",
+  "number": 8,
+  "isPositive": true
+},
+{
+  "spin": 244,
+  "isEven": false,
+  "color": "black",
+  "number": 11,
+  "isPositive": true
+},
+{
+  "spin": 245,
+  "isEven": false,
+  "color": "red",
+  "number": 9,
+  "isPositive": true
+},
+{
+  "spin": 246,
+  "isEven": false,
+  "color": "red",
+  "number": 9,
+  "isPositive": true
+},
+{
+  "spin": 247,
+  "isEven": false,
+  "color": "black",
+  "number": 33,
+  "isPositive": true
+},
+{
+  "spin": 248,
+  "isEven": false,
+  "color": "black",
+  "number": 35,
+  "isPositive": true
+},
+{
+  "spin": 249,
+  "isEven": true,
+  "color": "red",
+  "number": 14,
+  "isPositive": true
+},
+{
+  "spin": 250,
+  "isEven": true,
+  "color": "black",
+  "number": 20,
+  "isPositive": true
+},
+{
+  "spin": 251,
+  "isEven": true,
+  "color": "black",
+  "number": 6,
+  "isPositive": true
+},
+{
+  "spin": 252,
+  "isEven": false,
+  "color": "black",
+  "number": 13,
+  "isPositive": true
+},
+{
+  "spin": 253,
+  "isEven": false,
+  "color": "black",
+  "number": 11,
+  "isPositive": true
+},
+{
+  "spin": 254,
+  "isEven": true,
+  "color": "black",
+  "number": 24,
+  "isPositive": true
+},
+{
+  "spin": 255,
+  "isEven": false,
+  "color": "black",
+  "number": 17,
+  "isPositive": true
+},
+{
+  "spin": 256,
+  "isEven": true,
+  "color": "black",
+  "number": 6,
+  "isPositive": true
+},
+{
+  "spin": 257,
+  "isEven": false,
+  "color": "black",
+  "number": 31,
+  "isPositive": true
+},
+{
+  "spin": 258,
+  "isEven": false,
+  "color": "black",
+  "number": 13,
+  "isPositive": true
+},
+{
+  "spin": 259,
+  "isEven": false,
+  "color": "red",
+  "number": 19,
+  "isPositive": true
+},
+{
+  "spin": 260,
+  "isEven": true,
+  "color": "black",
+  "number": 22,
+  "isPositive": true
+},
+{
+  "spin": 261,
+  "isEven": false,
+  "color": "red",
+  "number": 7,
+  "isPositive": true
+},
+{
+  "spin": 262,
+  "isEven": false,
+  "color": "green",
+  "number": -1,
+  "isPositive": false
+},
+{
+  "spin": 263,
+  "isEven": false,
+  "color": "red",
+  "number": 3,
+  "isPositive": true
+},
+{
+  "spin": 264,
+  "isEven": true,
+  "color": "black",
+  "number": 20,
+  "isPositive": true
+},
+{
+  "spin": 265,
+  "isEven": true,
+  "color": "red",
+  "number": 32,
+  "isPositive": true
+},
+{
+  "spin": 266,
+  "isEven": false,
+  "color": "black",
+  "number": 29,
+  "isPositive": true
+},
+{
+  "spin": 267,
+  "isEven": false,
+  "color": "green",
+  "number": 0,
+  "isPositive": false
+},
+{
+  "spin": 268,
+  "isEven": false,
+  "color": "black",
+  "number": 17,
+  "isPositive": true
+},
+{
+  "spin": 269,
+  "isEven": true,
+  "color": "black",
+  "number": 22,
+  "isPositive": true
+},
+{
+  "spin": 270,
+  "isEven": false,
+  "color": "red",
+  "number": 23,
+  "isPositive": true
+},
+{
+  "spin": 271,
+  "isEven": true,
+  "color": "black",
+  "number": 22,
+  "isPositive": true
+},
+{
+  "spin": 272,
+  "isEven": true,
+  "color": "red",
+  "number": 14,
+  "isPositive": true
+},
+{
+  "spin": 273,
+  "isEven": false,
+  "color": "black",
+  "number": 29,
+  "isPositive": true
+},
+{
+  "spin": 274,
+  "isEven": false,
+  "color": "green",
+  "number": 0,
+  "isPositive": false
+},
+{
+  "spin": 275,
+  "isEven": false,
+  "color": "black",
+  "number": 29,
+  "isPositive": true
+},
+{
+  "spin": 276,
+  "isEven": true,
+  "color": "red",
+  "number": 32,
+  "isPositive": true
+},
+{
+  "spin": 277,
+  "isEven": false,
+  "color": "red",
+  "number": 1,
+  "isPositive": true
+},
+{
+  "spin": 278,
+  "isEven": false,
+  "color": "black",
+  "number": 31,
+  "isPositive": true
+},
+{
+  "spin": 279,
+  "isEven": false,
+  "color": "red",
+  "number": 3,
+  "isPositive": true
+},
+{
+  "spin": 280,
+  "isEven": false,
+  "color": "black",
+  "number": 31,
+  "isPositive": true
+},
+{
+  "spin": 281,
+  "isEven": false,
+  "color": "red",
+  "number": 19,
+  "isPositive": true
+},
+{
+  "spin": 282,
+  "isEven": false,
+  "color": "red",
+  "number": 1,
+  "isPositive": true
+},
+{
+  "spin": 283,
+  "isEven": true,
+  "color": "black",
+  "number": 10,
+  "isPositive": true
+},
+{
+  "spin": 284,
+  "isEven": true,
+  "color": "red",
+  "number": 14,
+  "isPositive": true
+},
+{
+  "spin": 285,
+  "isEven": false,
+  "color": "red",
+  "number": 5,
+  "isPositive": true
+},
+{
+  "spin": 286,
+  "isEven": true,
+  "color": "red",
+  "number": 16,
+  "isPositive": true
+},
+{
+  "spin": 287,
+  "isEven": false,
+  "color": "red",
+  "number": 19,
+  "isPositive": true
+},
+{
+  "spin": 288,
+  "isEven": false,
+  "color": "red",
+  "number": 3,
+  "isPositive": true
+},
+{
+  "spin": 289,
+  "isEven": true,
+  "color": "black",
+  "number": 26,
+  "isPositive": true
+},
+{
+  "spin": 290,
+  "isEven": false,
+  "color": "black",
+  "number": 17,
+  "isPositive": true
+},
+{
+  "spin": 291,
+  "isEven": false,
+  "color": "black",
+  "number": 15,
+  "isPositive": true
+},
+{
+  "spin": 292,
+  "isEven": true,
+  "color": "black",
+  "number": 2,
+  "isPositive": true
+},
+{
+  "spin": 293,
+  "isEven": false,
+  "color": "red",
+  "number": 3,
+  "isPositive": true
+},
+{
+  "spin": 294,
+  "isEven": true,
+  "color": "black",
+  "number": 6,
+  "isPositive": true
+},
+{
+  "spin": 295,
+  "isEven": false,
+  "color": "black",
+  "number": 13,
+  "isPositive": true
+},
+{
+  "spin": 296,
+  "isEven": false,
+  "color": "black",
+  "number": 11,
+  "isPositive": true
+},
+{
+  "spin": 297,
+  "isEven": false,
+  "color": "black",
+  "number": 29,
+  "isPositive": true
+},
+{
+  "spin": 298,
+  "isEven": false,
+  "color": "black",
+  "number": 35,
+  "isPositive": true
+},
+{
+  "spin": 299,
+  "isEven": false,
+  "color": "red",
+  "number": 3,
+  "isPositive": true
+},
+{
+  "spin": 300,
+  "isEven": false,
+  "color": "black",
+  "number": 31,
+  "isPositive": true
+},
+{
+  "spin": 301,
+  "isEven": false,
+  "color": "red",
+  "number": 19,
+  "isPositive": true
+},
+{
+  "spin": 302,
+  "isEven": true,
+  "color": "black",
+  "number": 22,
+  "isPositive": true
+},
+{
+  "spin": 303,
+  "isEven": true,
+  "color": "black",
+  "number": 24,
+  "isPositive": true
+},
+{
+  "spin": 304,
+  "isEven": true,
+  "color": "black",
+  "number": 6,
+  "isPositive": true
+},
+{
+  "spin": 305,
+  "isEven": true,
+  "color": "black",
+  "number": 10,
+  "isPositive": true
+},
+{
+  "spin": 306,
+  "isEven": false,
+  "color": "red",
+  "number": 21,
+  "isPositive": true
+},
+{
+  "spin": 307,
+  "isEven": false,
+  "color": "red",
+  "number": 19,
+  "isPositive": true
+},
+{
+  "spin": 308,
+  "isEven": true,
+  "color": "red",
+  "number": 36,
+  "isPositive": true
+},
+{
+  "spin": 309,
+  "isEven": true,
+  "color": "red",
+  "number": 18,
+  "isPositive": true
+},
+{
+  "spin": 310,
+  "isEven": false,
+  "color": "black",
+  "number": 31,
+  "isPositive": true
+},
+{
+  "spin": 311,
+  "isEven": false,
+  "color": "black",
+  "number": 29,
+  "isPositive": true
+},
+{
+  "spin": 312,
+  "isEven": true,
+  "color": "red",
+  "number": 34,
+  "isPositive": true
+},
+{
+  "spin": 313,
+  "isEven": false,
+  "color": "red",
+  "number": 9,
+  "isPositive": true
+},
+{
+  "spin": 314,
+  "isEven": false,
+  "color": "black",
+  "number": 31,
+  "isPositive": true
+},
+{
+  "spin": 315,
+  "isEven": true,
+  "color": "red",
+  "number": 18,
+  "isPositive": true
+},
+{
+  "spin": 316,
+  "isEven": false,
+  "color": "red",
+  "number": 19,
+  "isPositive": true
+},
+{
+  "spin": 317,
+  "isEven": true,
+  "color": "black",
+  "number": 28,
+  "isPositive": true
+},
+{
+  "spin": 318,
+  "isEven": true,
+  "color": "red",
+  "number": 12,
+  "isPositive": true
+},
+{
+  "spin": 319,
+  "isEven": true,
+  "color": "black",
+  "number": 10,
+  "isPositive": true
+},
+{
+  "spin": 320,
+  "isEven": false,
+  "color": "black",
+  "number": 11,
+  "isPositive": true
+},
+{
+  "spin": 321,
+  "isEven": false,
+  "color": "black",
+  "number": 15,
+  "isPositive": true
+},
+{
+  "spin": 322,
+  "isEven": false,
+  "color": "black",
+  "number": 13,
+  "isPositive": true
+},
+{
+  "spin": 323,
+  "isEven": true,
+  "color": "black",
+  "number": 20,
+  "isPositive": true
+},
+{
+  "spin": 324,
+  "isEven": true,
+  "color": "red",
+  "number": 36,
+  "isPositive": true
+},
+{
+  "spin": 325,
+  "isEven": true,
+  "color": "black",
+  "number": 6,
+  "isPositive": true
+},
+{
+  "spin": 326,
+  "isEven": true,
+  "color": "red",
+  "number": 12,
+  "isPositive": true
+},
+{
+  "spin": 327,
+  "isEven": true,
+  "color": "red",
+  "number": 34,
+  "isPositive": true
+},
+{
+  "spin": 328,
+  "isEven": true,
+  "color": "red",
+  "number": 30,
+  "isPositive": true
+},
+{
+  "spin": 329,
+  "isEven": true,
+  "color": "black",
+  "number": 2,
+  "isPositive": true
+},
+{
+  "spin": 330,
+  "isEven": false,
+  "color": "green",
+  "number": 0,
+  "isPositive": false
+},
+{
+  "spin": 331,
+  "isEven": false,
+  "color": "red",
+  "number": 21,
+  "isPositive": true
+},
+{
+  "spin": 332,
+  "isEven": true,
+  "color": "black",
+  "number": 22,
+  "isPositive": true
+},
+{
+  "spin": 333,
+  "isEven": true,
+  "color": "red",
+  "number": 34,
+  "isPositive": true
+},
+{
+  "spin": 334,
+  "isEven": true,
+  "color": "black",
+  "number": 28,
+  "isPositive": true
+},
+{
+  "spin": 335,
+  "isEven": true,
+  "color": "red",
+  "number": 18,
+  "isPositive": true
+},
+{
+  "spin": 336,
+  "isEven": false,
+  "color": "red",
+  "number": 21,
+  "isPositive": true
+},
+{
+  "spin": 337,
+  "isEven": true,
+  "color": "black",
+  "number": 24,
+  "isPositive": true
+},
+{
+  "spin": 338,
+  "isEven": false,
+  "color": "red",
+  "number": 5,
+  "isPositive": true
+},
+{
+  "spin": 339,
+  "isEven": true,
+  "color": "red",
+  "number": 16,
+  "isPositive": true
+},
+{
+  "spin": 340,
+  "isEven": true,
+  "color": "red",
+  "number": 14,
+  "isPositive": true
+},
+{
+  "spin": 341,
+  "isEven": true,
+  "color": "black",
+  "number": 24,
+  "isPositive": true
+},
+{
+  "spin": 342,
+  "isEven": false,
+  "color": "red",
+  "number": 27,
+  "isPositive": true
+},
+{
+  "spin": 343,
+  "isEven": true,
+  "color": "red",
+  "number": 36,
+  "isPositive": true
+},
+{
+  "spin": 344,
+  "isEven": false,
+  "color": "black",
+  "number": 35,
+  "isPositive": true
+},
+{
+  "spin": 345,
+  "isEven": false,
+  "color": "black",
+  "number": 35,
+  "isPositive": true
+},
+{
+  "spin": 346,
+  "isEven": false,
+  "color": "red",
+  "number": 5,
+  "isPositive": true
+},
+{
+  "spin": 347,
+  "isEven": false,
+  "color": "red",
+  "number": 7,
+  "isPositive": true
+},
+{
+  "spin": 348,
+  "isEven": false,
+  "color": "black",
+  "number": 31,
+  "isPositive": true
+},
+{
+  "spin": 349,
+  "isEven": true,
+  "color": "red",
+  "number": 30,
+  "isPositive": true
+},
+{
+  "spin": 350,
+  "isEven": false,
+  "color": "red",
+  "number": 25,
+  "isPositive": true
+},
+{
+  "spin": 351,
+  "isEven": false,
+  "color": "red",
+  "number": 3,
+  "isPositive": true
+},
+{
+  "spin": 352,
+  "isEven": false,
+  "color": "red",
+  "number": 1,
+  "isPositive": true
+},
+{
+  "spin": 353,
+  "isEven": false,
+  "color": "black",
+  "number": 17,
+  "isPositive": true
+},
+{
+  "spin": 354,
+  "isEven": true,
+  "color": "black",
+  "number": 2,
+  "isPositive": true
+},
+{
+  "spin": 355,
+  "isEven": true,
+  "color": "black",
+  "number": 20,
+  "isPositive": true
+},
+{
+  "spin": 356,
+  "isEven": false,
+  "color": "red",
+  "number": 9,
+  "isPositive": true
+},
+{
+  "spin": 357,
+  "isEven": true,
+  "color": "red",
+  "number": 14,
+  "isPositive": true
+},
+{
+  "spin": 358,
+  "isEven": false,
+  "color": "black",
+  "number": 13,
+  "isPositive": true
+},
+{
+  "spin": 359,
+  "isEven": true,
+  "color": "black",
+  "number": 24,
+  "isPositive": true
+},
+{
+  "spin": 360,
+  "isEven": true,
+  "color": "black",
+  "number": 28,
+  "isPositive": true
+},
+{
+  "spin": 361,
+  "isEven": false,
+  "color": "red",
+  "number": 3,
+  "isPositive": true
+},
+{
+  "spin": 362,
+  "isEven": true,
+  "color": "black",
+  "number": 26,
+  "isPositive": true
+},
+{
+  "spin": 363,
+  "isEven": true,
+  "color": "black",
+  "number": 4,
+  "isPositive": true
+},
+{
+  "spin": 364,
+  "isEven": false,
+  "color": "black",
+  "number": 31,
+  "isPositive": true
+},
+{
+  "spin": 365,
+  "isEven": false,
+  "color": "black",
+  "number": 17,
+  "isPositive": true
+},
+{
+  "spin": 366,
+  "isEven": true,
+  "color": "black",
+  "number": 24,
+  "isPositive": true
+},
+{
+  "spin": 367,
+  "isEven": false,
+  "color": "black",
+  "number": 11,
+  "isPositive": true
+},
+{
+  "spin": 368,
+  "isEven": false,
+  "color": "red",
+  "number": 25,
+  "isPositive": true
+},
+{
+  "spin": 369,
+  "isEven": true,
+  "color": "black",
+  "number": 8,
+  "isPositive": true
+},
+{
+  "spin": 370,
+  "isEven": false,
+  "color": "red",
+  "number": 5,
+  "isPositive": true
+},
+{
+  "spin": 371,
+  "isEven": false,
+  "color": "green",
+  "number": 0,
+  "isPositive": false
+},
+{
+  "spin": 372,
+  "isEven": false,
+  "color": "red",
+  "number": 1,
+  "isPositive": true
+},
+{
+  "spin": 373,
+  "isEven": false,
+  "color": "red",
+  "number": 25,
+  "isPositive": true
+},
+{
+  "spin": 374,
+  "isEven": true,
+  "color": "red",
+  "number": 34,
+  "isPositive": true
+},
+{
+  "spin": 375,
+  "isEven": false,
+  "color": "red",
+  "number": 21,
+  "isPositive": true
+},
+{
+  "spin": 376,
+  "isEven": true,
+  "color": "black",
+  "number": 2,
+  "isPositive": true
+},
+{
+  "spin": 377,
+  "isEven": false,
+  "color": "black",
+  "number": 15,
+  "isPositive": true
+},
+{
+  "spin": 378,
+  "isEven": false,
+  "color": "black",
+  "number": 13,
+  "isPositive": true
+},
+{
+  "spin": 379,
+  "isEven": true,
+  "color": "black",
+  "number": 22,
+  "isPositive": true
+},
+{
+  "spin": 380,
+  "isEven": false,
+  "color": "red",
+  "number": 19,
+  "isPositive": true
+},
+{
+  "spin": 381,
+  "isEven": false,
+  "color": "red",
+  "number": 5,
+  "isPositive": true
+},
+{
+  "spin": 382,
+  "isEven": false,
+  "color": "red",
+  "number": 1,
+  "isPositive": true
+},
+{
+  "spin": 383,
+  "isEven": true,
+  "color": "red",
+  "number": 16,
+  "isPositive": true
+},
+{
+  "spin": 384,
+  "isEven": true,
+  "color": "red",
+  "number": 16,
+  "isPositive": true
+},
+{
+  "spin": 385,
+  "isEven": true,
+  "color": "black",
+  "number": 26,
+  "isPositive": true
+},
+{
+  "spin": 386,
+  "isEven": false,
+  "color": "black",
+  "number": 35,
+  "isPositive": true
+},
+{
+  "spin": 387,
+  "isEven": false,
+  "color": "black",
+  "number": 33,
+  "isPositive": true
+},
+{
+  "spin": 388,
+  "isEven": true,
+  "color": "red",
+  "number": 14,
+  "isPositive": true
+},
+{
+  "spin": 389,
+  "isEven": true,
+  "color": "red",
+  "number": 34,
+  "isPositive": true
+},
+{
+  "spin": 390,
+  "isEven": false,
+  "color": "red",
+  "number": 21,
+  "isPositive": true
+},
+{
+  "spin": 391,
+  "isEven": false,
+  "color": "black",
+  "number": 33,
+  "isPositive": true
+},
+{
+  "spin": 392,
+  "isEven": false,
+  "color": "red",
+  "number": 9,
+  "isPositive": true
+},
+{
+  "spin": 393,
+  "isEven": true,
+  "color": "red",
+  "number": 12,
+  "isPositive": true
+},
+{
+  "spin": 394,
+  "isEven": false,
+  "color": "black",
+  "number": 11,
+  "isPositive": true
+},
+{
+  "spin": 395,
+  "isEven": true,
+  "color": "red",
+  "number": 36,
+  "isPositive": true
+},
+{
+  "spin": 396,
+  "isEven": false,
+  "color": "black",
+  "number": 13,
+  "isPositive": true
+},
+{
+  "spin": 397,
+  "isEven": true,
+  "color": "black",
+  "number": 8,
+  "isPositive": true
+},
+{
+  "spin": 398,
+  "isEven": true,
+  "color": "red",
+  "number": 34,
+  "isPositive": true
+},
+{
+  "spin": 399,
+  "isEven": true,
+  "color": "black",
+  "number": 20,
+  "isPositive": true
+},
+{
+  "spin": 400,
+  "isEven": false,
+  "color": "red",
+  "number": 7,
+  "isPositive": true
+},
+{
+  "spin": 401,
+  "isEven": false,
+  "color": "black",
+  "number": 33,
+  "isPositive": true
+},
+{
+  "spin": 402,
+  "isEven": true,
+  "color": "black",
+  "number": 10,
+  "isPositive": true
+},
+{
+  "spin": 403,
+  "isEven": false,
+  "color": "red",
+  "number": 1,
+  "isPositive": true
+},
+{
+  "spin": 404,
+  "isEven": true,
+  "color": "black",
+  "number": 24,
+  "isPositive": true
+},
+{
+  "spin": 405,
+  "isEven": true,
+  "color": "red",
+  "number": 32,
+  "isPositive": true
+},
+{
+  "spin": 406,
+  "isEven": false,
+  "color": "black",
+  "number": 31,
+  "isPositive": true
+},
+{
+  "spin": 407,
+  "isEven": true,
+  "color": "black",
+  "number": 22,
+  "isPositive": true
+},
+{
+  "spin": 408,
+  "isEven": false,
+  "color": "black",
+  "number": 33,
+  "isPositive": true
+},
+{
+  "spin": 409,
+  "isEven": false,
+  "color": "red",
+  "number": 3,
+  "isPositive": true
+},
+{
+  "spin": 410,
+  "isEven": true,
+  "color": "red",
+  "number": 34,
+  "isPositive": true
+},
+{
+  "spin": 411,
+  "isEven": true,
+  "color": "black",
+  "number": 2,
+  "isPositive": true
+},
+{
+  "spin": 412,
+  "isEven": false,
+  "color": "red",
+  "number": 27,
+  "isPositive": true
+},
+{
+  "spin": 413,
+  "isEven": false,
+  "color": "red",
+  "number": 27,
+  "isPositive": true
+},
+{
+  "spin": 414,
+  "isEven": true,
+  "color": "black",
+  "number": 8,
+  "isPositive": true
+},
+{
+  "spin": 415,
+  "isEven": true,
+  "color": "black",
+  "number": 6,
+  "isPositive": true
+},
+{
+  "spin": 416,
+  "isEven": false,
+  "color": "red",
+  "number": 25,
+  "isPositive": true
+},
+{
+  "spin": 417,
+  "isEven": false,
+  "color": "red",
+  "number": 27,
+  "isPositive": true
+},
+{
+  "spin": 418,
+  "isEven": true,
+  "color": "black",
+  "number": 20,
+  "isPositive": true
+},
+{
+  "spin": 419,
+  "isEven": false,
+  "color": "black",
+  "number": 15,
+  "isPositive": true
+},
+{
+  "spin": 420,
+  "isEven": false,
+  "color": "black",
+  "number": 15,
+  "isPositive": true
+},
+{
+  "spin": 421,
+  "isEven": false,
+  "color": "green",
+  "number": -1,
+  "isPositive": false
+},
+{
+  "spin": 422,
+  "isEven": true,
+  "color": "red",
+  "number": 34,
+  "isPositive": true
+},
+{
+  "spin": 423,
+  "isEven": false,
+  "color": "red",
+  "number": 25,
+  "isPositive": true
+},
+{
+  "spin": 424,
+  "isEven": false,
+  "color": "black",
+  "number": 35,
+  "isPositive": true
+},
+{
+  "spin": 425,
+  "isEven": true,
+  "color": "black",
+  "number": 8,
+  "isPositive": true
+},
+{
+  "spin": 426,
+  "isEven": false,
+  "color": "red",
+  "number": 3,
+  "isPositive": true
+},
+{
+  "spin": 427,
+  "isEven": false,
+  "color": "red",
+  "number": 21,
+  "isPositive": true
+},
+{
+  "spin": 428,
+  "isEven": false,
+  "color": "black",
+  "number": 15,
+  "isPositive": true
+},
+{
+  "spin": 429,
+  "isEven": false,
+  "color": "black",
+  "number": 11,
+  "isPositive": true
+},
+{
+  "spin": 430,
+  "isEven": true,
+  "color": "red",
+  "number": 14,
+  "isPositive": true
+},
+{
+  "spin": 431,
+  "isEven": true,
+  "color": "black",
+  "number": 26,
+  "isPositive": true
+},
+{
+  "spin": 432,
+  "isEven": true,
+  "color": "red",
+  "number": 16,
+  "isPositive": true
+},
+{
+  "spin": 433,
+  "isEven": false,
+  "color": "red",
+  "number": 27,
+  "isPositive": true
+},
+{
+  "spin": 434,
+  "isEven": false,
+  "color": "red",
+  "number": 21,
+  "isPositive": true
+},
+{
+  "spin": 435,
+  "isEven": true,
+  "color": "black",
+  "number": 6,
+  "isPositive": true
+},
+{
+  "spin": 436,
+  "isEven": false,
+  "color": "black",
+  "number": 17,
+  "isPositive": true
+},
+{
+  "spin": 437,
+  "isEven": true,
+  "color": "red",
+  "number": 34,
+  "isPositive": true
+},
+{
+  "spin": 438,
+  "isEven": true,
+  "color": "red",
+  "number": 30,
+  "isPositive": true
+},
+{
+  "spin": 439,
+  "isEven": true,
+  "color": "red",
+  "number": 14,
+  "isPositive": true
+},
+{
+  "spin": 440,
+  "isEven": true,
+  "color": "red",
+  "number": 18,
+  "isPositive": true
+},
+{
+  "spin": 441,
+  "isEven": false,
+  "color": "red",
+  "number": 3,
+  "isPositive": true
+},
+{
+  "spin": 442,
+  "isEven": true,
+  "color": "red",
+  "number": 12,
+  "isPositive": true
+},
+{
+  "spin": 443,
+  "isEven": true,
+  "color": "red",
+  "number": 12,
+  "isPositive": true
+},
+{
+  "spin": 444,
+  "isEven": true,
+  "color": "black",
+  "number": 20,
+  "isPositive": true
+},
+{
+  "spin": 445,
+  "isEven": false,
+  "color": "red",
+  "number": 19,
+  "isPositive": true
+},
+{
+  "spin": 446,
+  "isEven": false,
+  "color": "green",
+  "number": 0,
+  "isPositive": false
+},
+{
+  "spin": 447,
+  "isEven": false,
+  "color": "black",
+  "number": 35,
+  "isPositive": true
+},
+{
+  "spin": 448,
+  "isEven": false,
+  "color": "black",
+  "number": 35,
+  "isPositive": true
+},
+{
+  "spin": 449,
+  "isEven": false,
+  "color": "red",
+  "number": 23,
+  "isPositive": true
+},
+{
+  "spin": 450,
+  "isEven": true,
+  "color": "red",
+  "number": 14,
+  "isPositive": true
+},
+{
+  "spin": 451,
+  "isEven": true,
+  "color": "black",
+  "number": 24,
+  "isPositive": true
+},
+{
+  "spin": 452,
+  "isEven": false,
+  "color": "black",
+  "number": 29,
+  "isPositive": true
+},
+{
+  "spin": 453,
+  "isEven": false,
+  "color": "black",
+  "number": 17,
+  "isPositive": true
+},
+{
+  "spin": 454,
+  "isEven": true,
+  "color": "black",
+  "number": 24,
+  "isPositive": true
+},
+{
+  "spin": 455,
+  "isEven": true,
+  "color": "red",
+  "number": 18,
+  "isPositive": true
+},
+{
+  "spin": 456,
+  "isEven": true,
+  "color": "black",
+  "number": 26,
+  "isPositive": true
+},
+{
+  "spin": 457,
+  "isEven": true,
+  "color": "black",
+  "number": 4,
+  "isPositive": true
+},
+{
+  "spin": 458,
+  "isEven": true,
+  "color": "red",
+  "number": 36,
+  "isPositive": true
+},
+{
+  "spin": 459,
+  "isEven": false,
+  "color": "red",
+  "number": 25,
+  "isPositive": true
+},
+{
+  "spin": 460,
+  "isEven": false,
+  "color": "black",
+  "number": 31,
+  "isPositive": true
+},
+{
+  "spin": 461,
+  "isEven": true,
+  "color": "black",
+  "number": 24,
+  "isPositive": true
+},
+{
+  "spin": 462,
+  "isEven": true,
+  "color": "black",
+  "number": 28,
+  "isPositive": true
+},
+{
+  "spin": 463,
+  "isEven": false,
+  "color": "black",
+  "number": 29,
+  "isPositive": true
+},
+{
+  "spin": 464,
+  "isEven": false,
+  "color": "red",
+  "number": 21,
+  "isPositive": true
+},
+{
+  "spin": 465,
+  "isEven": false,
+  "color": "black",
+  "number": 33,
+  "isPositive": true
+},
+{
+  "spin": 466,
+  "isEven": true,
+  "color": "black",
+  "number": 26,
+  "isPositive": true
+},
+{
+  "spin": 467,
+  "isEven": false,
+  "color": "red",
+  "number": 7,
+  "isPositive": true
+},
+{
+  "spin": 468,
+  "isEven": false,
+  "color": "red",
+  "number": 7,
+  "isPositive": true
+},
+{
+  "spin": 469,
+  "isEven": true,
+  "color": "red",
+  "number": 32,
+  "isPositive": true
+},
+{
+  "spin": 470,
+  "isEven": false,
+  "color": "black",
+  "number": 33,
+  "isPositive": true
+},
+{
+  "spin": 471,
+  "isEven": true,
+  "color": "red",
+  "number": 14,
+  "isPositive": true
+},
+{
+  "spin": 472,
+  "isEven": false,
+  "color": "green",
+  "number": -1,
+  "isPositive": false
+},
+{
+  "spin": 473,
+  "isEven": true,
+  "color": "black",
+  "number": 2,
+  "isPositive": true
+},
+{
+  "spin": 474,
+  "isEven": false,
+  "color": "red",
+  "number": 9,
+  "isPositive": true
+},
+{
+  "spin": 475,
+  "isEven": true,
+  "color": "red",
+  "number": 34,
+  "isPositive": true
+},
+{
+  "spin": 476,
+  "isEven": false,
+  "color": "green",
+  "number": -1,
+  "isPositive": false
+},
+{
+  "spin": 477,
+  "isEven": true,
+  "color": "red",
+  "number": 18,
+  "isPositive": true
+},
+{
+  "spin": 478,
+  "isEven": false,
+  "color": "black",
+  "number": 33,
+  "isPositive": true
+},
+{
+  "spin": 479,
+  "isEven": true,
+  "color": "black",
+  "number": 10,
+  "isPositive": true
+},
+{
+  "spin": 480,
+  "isEven": false,
+  "color": "red",
+  "number": 9,
+  "isPositive": true
+},
+{
+  "spin": 481,
+  "isEven": false,
+  "color": "black",
+  "number": 15,
+  "isPositive": true
+},
+{
+  "spin": 482,
+  "isEven": false,
+  "color": "red",
+  "number": 1,
+  "isPositive": true
+},
+{
+  "spin": 483,
+  "isEven": false,
+  "color": "red",
+  "number": 7,
+  "isPositive": true
+},
+{
+  "spin": 484,
+  "isEven": false,
+  "color": "black",
+  "number": 11,
+  "isPositive": true
+},
+{
+  "spin": 485,
+  "isEven": true,
+  "color": "black",
+  "number": 6,
+  "isPositive": true
+},
+{
+  "spin": 486,
+  "isEven": false,
+  "color": "black",
+  "number": 31,
+  "isPositive": true
+},
+{
+  "spin": 487,
+  "isEven": true,
+  "color": "red",
+  "number": 16,
+  "isPositive": true
+},
+{
+  "spin": 488,
+  "isEven": false,
+  "color": "black",
+  "number": 11,
+  "isPositive": true
+},
+{
+  "spin": 489,
+  "isEven": true,
+  "color": "red",
+  "number": 18,
+  "isPositive": true
+},
+{
+  "spin": 490,
+  "isEven": true,
+  "color": "black",
+  "number": 8,
+  "isPositive": true
+},
+{
+  "spin": 491,
+  "isEven": true,
+  "color": "red",
+  "number": 18,
+  "isPositive": true
+},
+{
+  "spin": 492,
+  "isEven": true,
+  "color": "red",
+  "number": 32,
+  "isPositive": true
+},
+{
+  "spin": 493,
+  "isEven": true,
+  "color": "red",
+  "number": 14,
+  "isPositive": true
+},
+{
+  "spin": 494,
+  "isEven": true,
+  "color": "black",
+  "number": 22,
+  "isPositive": true
+},
+{
+  "spin": 495,
+  "isEven": true,
+  "color": "black",
+  "number": 20,
+  "isPositive": true
+},
+{
+  "spin": 496,
+  "isEven": false,
+  "color": "green",
+  "number": 0,
+  "isPositive": false
+},
+{
+  "spin": 497,
+  "isEven": true,
+  "color": "black",
+  "number": 2,
+  "isPositive": true
+},
+{
+  "spin": 498,
+  "isEven": false,
+  "color": "red",
+  "number": 9,
+  "isPositive": true
+},
+{
+  "spin": 499,
+  "isEven": true,
+  "color": "black",
+  "number": 6,
+  "isPositive": true
+},
+{
+  "spin": 500,
+  "isEven": false,
+  "color": "black",
+  "number": 11,
+  "isPositive": true
+},
+{
+  "spin": 501,
+  "isEven": false,
+  "color": "red",
+  "number": 19,
+  "isPositive": true
+},
+{
+  "spin": 502,
+  "isEven": false,
+  "color": "green",
+  "number": 0,
+  "isPositive": false
+},
+{
+  "spin": 503,
+  "isEven": false,
+  "color": "black",
+  "number": 29,
+  "isPositive": true
+},
+{
+  "spin": 504,
+  "isEven": true,
+  "color": "black",
+  "number": 20,
+  "isPositive": true
+},
+{
+  "spin": 505,
+  "isEven": false,
+  "color": "black",
+  "number": 35,
+  "isPositive": true
+},
+{
+  "spin": 506,
+  "isEven": false,
+  "color": "black",
+  "number": 15,
+  "isPositive": true
+},
+{
+  "spin": 507,
+  "isEven": true,
+  "color": "red",
+  "number": 34,
+  "isPositive": true
+},
+{
+  "spin": 508,
+  "isEven": true,
+  "color": "black",
+  "number": 20,
+  "isPositive": true
+},
+{
+  "spin": 509,
+  "isEven": true,
+  "color": "red",
+  "number": 30,
+  "isPositive": true
+},
+{
+  "spin": 510,
+  "isEven": false,
+  "color": "black",
+  "number": 33,
+  "isPositive": true
+},
+{
+  "spin": 511,
+  "isEven": true,
+  "color": "black",
+  "number": 20,
+  "isPositive": true
+},
+{
+  "spin": 512,
+  "isEven": false,
+  "color": "red",
+  "number": 23,
+  "isPositive": true
+},
+{
+  "spin": 513,
+  "isEven": true,
+  "color": "red",
+  "number": 34,
+  "isPositive": true
+},
+{
+  "spin": 514,
+  "isEven": true,
+  "color": "black",
+  "number": 6,
+  "isPositive": true
+},
+{
+  "spin": 515,
+  "isEven": false,
+  "color": "red",
+  "number": 25,
+  "isPositive": true
+},
+{
+  "spin": 516,
+  "isEven": false,
+  "color": "red",
+  "number": 21,
+  "isPositive": true
+},
+{
+  "spin": 517,
+  "isEven": true,
+  "color": "black",
+  "number": 20,
+  "isPositive": true
+},
+{
+  "spin": 518,
+  "isEven": false,
+  "color": "green",
+  "number": -1,
+  "isPositive": false
+},
+{
+  "spin": 519,
+  "isEven": true,
+  "color": "red",
+  "number": 30,
+  "isPositive": true
+},
+{
+  "spin": 520,
+  "isEven": true,
+  "color": "black",
+  "number": 26,
+  "isPositive": true
+},
+{
+  "spin": 521,
+  "isEven": false,
+  "color": "green",
+  "number": -1,
+  "isPositive": false
+},
+{
+  "spin": 522,
+  "isEven": false,
+  "color": "red",
+  "number": 25,
+  "isPositive": true
+},
+{
+  "spin": 523,
+  "isEven": true,
+  "color": "black",
+  "number": 2,
+  "isPositive": true
+},
+{
+  "spin": 524,
+  "isEven": false,
+  "color": "black",
+  "number": 13,
+  "isPositive": true
+},
+{
+  "spin": 525,
+  "isEven": false,
+  "color": "black",
+  "number": 29,
+  "isPositive": true
+},
+{
+  "spin": 526,
+  "isEven": false,
+  "color": "black",
+  "number": 31,
+  "isPositive": true
+},
+{
+  "spin": 527,
+  "isEven": false,
+  "color": "black",
+  "number": 13,
+  "isPositive": true
+},
+{
+  "spin": 528,
+  "isEven": true,
+  "color": "red",
+  "number": 14,
+  "isPositive": true
+},
+{
+  "spin": 529,
+  "isEven": true,
+  "color": "black",
+  "number": 24,
+  "isPositive": true
+},
+{
+  "spin": 530,
+  "isEven": false,
+  "color": "black",
+  "number": 29,
+  "isPositive": true
+},
+{
+  "spin": 531,
+  "isEven": false,
+  "color": "green",
+  "number": -1,
+  "isPositive": false
+},
+{
+  "spin": 532,
+  "isEven": true,
+  "color": "red",
+  "number": 34,
+  "isPositive": true
+},
+{
+  "spin": 533,
+  "isEven": true,
+  "color": "black",
+  "number": 24,
+  "isPositive": true
+},
+{
+  "spin": 534,
+  "isEven": false,
+  "color": "green",
+  "number": -1,
+  "isPositive": false
+},
+{
+  "spin": 535,
+  "isEven": false,
+  "color": "black",
+  "number": 13,
+  "isPositive": true
+},
+{
+  "spin": 536,
+  "isEven": true,
+  "color": "black",
+  "number": 10,
+  "isPositive": true
+},
+{
+  "spin": 537,
+  "isEven": true,
+  "color": "black",
+  "number": 22,
+  "isPositive": true
+},
+{
+  "spin": 538,
+  "isEven": false,
+  "color": "black",
+  "number": 11,
+  "isPositive": true
+},
+{
+  "spin": 539,
+  "isEven": false,
+  "color": "black",
+  "number": 11,
+  "isPositive": true
+},
+{
+  "spin": 540,
+  "isEven": false,
+  "color": "black",
+  "number": 15,
+  "isPositive": true
+},
+{
+  "spin": 541,
+  "isEven": true,
+  "color": "red",
+  "number": 36,
+  "isPositive": true
+},
+{
+  "spin": 542,
+  "isEven": false,
+  "color": "black",
+  "number": 11,
+  "isPositive": true
+},
+{
+  "spin": 543,
+  "isEven": true,
+  "color": "black",
+  "number": 24,
+  "isPositive": true
+},
+{
+  "spin": 544,
+  "isEven": true,
+  "color": "red",
+  "number": 30,
+  "isPositive": true
+},
+{
+  "spin": 545,
+  "isEven": false,
+  "color": "green",
+  "number": -1,
+  "isPositive": false
+},
+{
+  "spin": 546,
+  "isEven": false,
+  "color": "black",
+  "number": 29,
+  "isPositive": true
+},
+{
+  "spin": 547,
+  "isEven": true,
+  "color": "red",
+  "number": 36,
+  "isPositive": true
+},
+{
+  "spin": 548,
+  "isEven": true,
+  "color": "black",
+  "number": 10,
+  "isPositive": true
+},
+{
+  "spin": 549,
+  "isEven": false,
+  "color": "red",
+  "number": 3,
+  "isPositive": true
+},
+{
+  "spin": 550,
+  "isEven": true,
+  "color": "black",
+  "number": 20,
+  "isPositive": true
+},
+{
+  "spin": 551,
+  "isEven": false,
+  "color": "red",
+  "number": 23,
+  "isPositive": true
+},
+{
+  "spin": 552,
+  "isEven": true,
+  "color": "black",
+  "number": 2,
+  "isPositive": true
+},
+{
+  "spin": 553,
+  "isEven": true,
+  "color": "red",
+  "number": 16,
+  "isPositive": true
+},
+{
+  "spin": 554,
+  "isEven": true,
+  "color": "black",
+  "number": 4,
+  "isPositive": true
+},
+{
+  "spin": 555,
+  "isEven": false,
+  "color": "red",
+  "number": 27,
+  "isPositive": true
+},
+{
+  "spin": 556,
+  "isEven": false,
+  "color": "black",
+  "number": 31,
+  "isPositive": true
+},
+{
+  "spin": 557,
+  "isEven": false,
+  "color": "red",
+  "number": 5,
+  "isPositive": true
+},
+{
+  "spin": 558,
+  "isEven": false,
+  "color": "black",
+  "number": 13,
+  "isPositive": true
+},
+{
+  "spin": 559,
+  "isEven": true,
+  "color": "red",
+  "number": 36,
+  "isPositive": true
+},
+{
+  "spin": 560,
+  "isEven": false,
+  "color": "red",
+  "number": 21,
+  "isPositive": true
+},
+{
+  "spin": 561,
+  "isEven": true,
+  "color": "black",
+  "number": 20,
+  "isPositive": true
+},
+{
+  "spin": 562,
+  "isEven": false,
+  "color": "red",
+  "number": 7,
+  "isPositive": true
+},
+{
+  "spin": 563,
+  "isEven": false,
+  "color": "red",
+  "number": 7,
+  "isPositive": true
+},
+{
+  "spin": 564,
+  "isEven": false,
+  "color": "black",
+  "number": 29,
+  "isPositive": true
+},
+{
+  "spin": 565,
+  "isEven": false,
+  "color": "green",
+  "number": -1,
+  "isPositive": false
+},
+{
+  "spin": 566,
+  "isEven": false,
+  "color": "black",
+  "number": 15,
+  "isPositive": true
+},
+{
+  "spin": 567,
+  "isEven": true,
+  "color": "black",
+  "number": 24,
+  "isPositive": true
+},
+{
+  "spin": 568,
+  "isEven": false,
+  "color": "red",
+  "number": 23,
+  "isPositive": true
+},
+{
+  "spin": 569,
+  "isEven": true,
+  "color": "red",
+  "number": 30,
+  "isPositive": true
+},
+{
+  "spin": 570,
+  "isEven": true,
+  "color": "red",
+  "number": 32,
+  "isPositive": true
+},
+{
+  "spin": 571,
+  "isEven": true,
+  "color": "black",
+  "number": 10,
+  "isPositive": true
+},
+{
+  "spin": 572,
+  "isEven": false,
+  "color": "red",
+  "number": 27,
+  "isPositive": true
+},
+{
+  "spin": 573,
+  "isEven": true,
+  "color": "red",
+  "number": 34,
+  "isPositive": true
+},
+{
+  "spin": 574,
+  "isEven": true,
+  "color": "black",
+  "number": 26,
+  "isPositive": true
+},
+{
+  "spin": 575,
+  "isEven": true,
+  "color": "red",
+  "number": 34,
+  "isPositive": true
+},
+{
+  "spin": 576,
+  "isEven": false,
+  "color": "red",
+  "number": 1,
+  "isPositive": true
+},
+{
+  "spin": 577,
+  "isEven": false,
+  "color": "red",
+  "number": 27,
+  "isPositive": true
+},
+{
+  "spin": 578,
+  "isEven": true,
+  "color": "black",
+  "number": 26,
+  "isPositive": true
+},
+{
+  "spin": 579,
+  "isEven": false,
+  "color": "black",
+  "number": 35,
+  "isPositive": true
+},
+{
+  "spin": 580,
+  "isEven": true,
+  "color": "red",
+  "number": 12,
+  "isPositive": true
+},
+{
+  "spin": 581,
+  "isEven": true,
+  "color": "red",
+  "number": 14,
+  "isPositive": true
+},
+{
+  "spin": 582,
+  "isEven": true,
+  "color": "black",
+  "number": 8,
+  "isPositive": true
+},
+{
+  "spin": 583,
+  "isEven": true,
+  "color": "black",
+  "number": 22,
+  "isPositive": true
+},
+{
+  "spin": 584,
+  "isEven": true,
+  "color": "black",
+  "number": 8,
+  "isPositive": true
+},
+{
+  "spin": 585,
+  "isEven": false,
+  "color": "black",
+  "number": 31,
+  "isPositive": true
+},
+{
+  "spin": 586,
+  "isEven": false,
+  "color": "green",
+  "number": -1,
+  "isPositive": false
+},
+{
+  "spin": 587,
+  "isEven": false,
+  "color": "red",
+  "number": 7,
+  "isPositive": true
+},
+{
+  "spin": 588,
+  "isEven": false,
+  "color": "black",
+  "number": 35,
+  "isPositive": true
+},
+{
+  "spin": 589,
+  "isEven": true,
+  "color": "black",
+  "number": 26,
+  "isPositive": true
+},
+{
+  "spin": 590,
+  "isEven": true,
+  "color": "black",
+  "number": 26,
+  "isPositive": true
+},
+{
+  "spin": 591,
+  "isEven": false,
+  "color": "red",
+  "number": 25,
+  "isPositive": true
+},
+{
+  "spin": 592,
+  "isEven": true,
+  "color": "black",
+  "number": 26,
+  "isPositive": true
+},
+{
+  "spin": 593,
+  "isEven": true,
+  "color": "red",
+  "number": 14,
+  "isPositive": true
+},
+{
+  "spin": 594,
+  "isEven": false,
+  "color": "red",
+  "number": 9,
+  "isPositive": true
+},
+{
+  "spin": 595,
+  "isEven": false,
+  "color": "black",
+  "number": 33,
+  "isPositive": true
+},
+{
+  "spin": 596,
+  "isEven": false,
+  "color": "red",
+  "number": 27,
+  "isPositive": true
+},
+{
+  "spin": 597,
+  "isEven": true,
+  "color": "black",
+  "number": 6,
+  "isPositive": true
+},
+{
+  "spin": 598,
+  "isEven": true,
+  "color": "red",
+  "number": 18,
+  "isPositive": true
+},
+{
+  "spin": 599,
+  "isEven": false,
+  "color": "black",
+  "number": 15,
+  "isPositive": true
+},
+{
+  "spin": 600,
+  "isEven": false,
+  "color": "black",
+  "number": 15,
+  "isPositive": true
+},
+{
+  "spin": 601,
+  "isEven": true,
+  "color": "black",
+  "number": 6,
+  "isPositive": true
+},
+{
+  "spin": 602,
+  "isEven": false,
+  "color": "red",
+  "number": 25,
+  "isPositive": true
+},
+{
+  "spin": 603,
+  "isEven": true,
+  "color": "red",
+  "number": 30,
+  "isPositive": true
+},
+{
+  "spin": 604,
+  "isEven": false,
+  "color": "red",
+  "number": 7,
+  "isPositive": true
+},
+{
+  "spin": 605,
+  "isEven": true,
+  "color": "red",
+  "number": 32,
+  "isPositive": true
+},
+{
+  "spin": 606,
+  "isEven": true,
+  "color": "black",
+  "number": 22,
+  "isPositive": true
+},
+{
+  "spin": 607,
+  "isEven": false,
+  "color": "red",
+  "number": 3,
+  "isPositive": true
+},
+{
+  "spin": 608,
+  "isEven": true,
+  "color": "black",
+  "number": 24,
+  "isPositive": true
+},
+{
+  "spin": 609,
+  "isEven": false,
+  "color": "black",
+  "number": 13,
+  "isPositive": true
+},
+{
+  "spin": 610,
+  "isEven": true,
+  "color": "black",
+  "number": 2,
+  "isPositive": true
+},
+{
+  "spin": 611,
+  "isEven": false,
+  "color": "red",
+  "number": 27,
+  "isPositive": true
+},
+{
+  "spin": 612,
+  "isEven": false,
+  "color": "red",
+  "number": 7,
+  "isPositive": true
+},
+{
+  "spin": 613,
+  "isEven": false,
+  "color": "red",
+  "number": 5,
+  "isPositive": true
+},
+{
+  "spin": 614,
+  "isEven": true,
+  "color": "red",
+  "number": 16,
+  "isPositive": true
+},
+{
+  "spin": 615,
+  "isEven": false,
+  "color": "black",
+  "number": 31,
+  "isPositive": true
+},
+{
+  "spin": 616,
+  "isEven": false,
+  "color": "black",
+  "number": 15,
+  "isPositive": true
+},
+{
+  "spin": 617,
+  "isEven": false,
+  "color": "black",
+  "number": 31,
+  "isPositive": true
+},
+{
+  "spin": 618,
+  "isEven": true,
+  "color": "black",
+  "number": 24,
+  "isPositive": true
+},
+{
+  "spin": 619,
+  "isEven": false,
+  "color": "black",
+  "number": 17,
+  "isPositive": true
+},
+{
+  "spin": 620,
+  "isEven": false,
+  "color": "red",
+  "number": 27,
+  "isPositive": true
+},
+{
+  "spin": 621,
+  "isEven": false,
+  "color": "black",
+  "number": 13,
+  "isPositive": true
+},
+{
+  "spin": 622,
+  "isEven": false,
+  "color": "black",
+  "number": 35,
+  "isPositive": true
+},
+{
+  "spin": 623,
+  "isEven": false,
+  "color": "black",
+  "number": 15,
+  "isPositive": true
+},
+{
+  "spin": 624,
+  "isEven": true,
+  "color": "red",
+  "number": 12,
+  "isPositive": true
+},
+{
+  "spin": 625,
+  "isEven": false,
+  "color": "black",
+  "number": 13,
+  "isPositive": true
+},
+{
+  "spin": 626,
+  "isEven": true,
+  "color": "black",
+  "number": 20,
+  "isPositive": true
+},
+{
+  "spin": 627,
+  "isEven": false,
+  "color": "green",
+  "number": 0,
+  "isPositive": false
+},
+{
+  "spin": 628,
+  "isEven": true,
+  "color": "black",
+  "number": 26,
+  "isPositive": true
+},
+{
+  "spin": 629,
+  "isEven": true,
+  "color": "black",
+  "number": 28,
+  "isPositive": true
+},
+{
+  "spin": 630,
+  "isEven": true,
+  "color": "red",
+  "number": 30,
+  "isPositive": true
+},
+{
+  "spin": 631,
+  "isEven": false,
+  "color": "black",
+  "number": 15,
+  "isPositive": true
+},
+{
+  "spin": 632,
+  "isEven": true,
+  "color": "black",
+  "number": 22,
+  "isPositive": true
+},
+{
+  "spin": 633,
+  "isEven": false,
+  "color": "red",
+  "number": 7,
+  "isPositive": true
+},
+{
+  "spin": 634,
+  "isEven": true,
+  "color": "black",
+  "number": 8,
+  "isPositive": true
+},
+{
+  "spin": 635,
+  "isEven": false,
+  "color": "red",
+  "number": 19,
+  "isPositive": true
+},
+{
+  "spin": 636,
+  "isEven": false,
+  "color": "red",
+  "number": 3,
+  "isPositive": true
+},
+{
+  "spin": 637,
+  "isEven": false,
+  "color": "red",
+  "number": 21,
+  "isPositive": true
+},
+{
+  "spin": 638,
+  "isEven": false,
+  "color": "black",
+  "number": 35,
+  "isPositive": true
+},
+{
+  "spin": 639,
+  "isEven": true,
+  "color": "black",
+  "number": 8,
+  "isPositive": true
+},
+{
+  "spin": 640,
+  "isEven": false,
+  "color": "red",
+  "number": 21,
+  "isPositive": true
+},
+{
+  "spin": 641,
+  "isEven": false,
+  "color": "black",
+  "number": 29,
+  "isPositive": true
+},
+{
+  "spin": 642,
+  "isEven": false,
+  "color": "black",
+  "number": 13,
+  "isPositive": true
+},
+{
+  "spin": 643,
+  "isEven": false,
+  "color": "black",
+  "number": 33,
+  "isPositive": true
+},
+{
+  "spin": 644,
+  "isEven": true,
+  "color": "red",
+  "number": 16,
+  "isPositive": true
+},
+{
+  "spin": 645,
+  "isEven": false,
+  "color": "black",
+  "number": 35,
+  "isPositive": true
+},
+{
+  "spin": 646,
+  "isEven": true,
+  "color": "black",
+  "number": 20,
+  "isPositive": true
+},
+{
+  "spin": 647,
+  "isEven": false,
+  "color": "red",
+  "number": 19,
+  "isPositive": true
+},
+{
+  "spin": 648,
+  "isEven": true,
+  "color": "red",
+  "number": 18,
+  "isPositive": true
+},
+{
+  "spin": 649,
+  "isEven": true,
+  "color": "black",
+  "number": 4,
+  "isPositive": true
+},
+{
+  "spin": 650,
+  "isEven": true,
+  "color": "red",
+  "number": 34,
+  "isPositive": true
+},
+{
+  "spin": 651,
+  "isEven": true,
+  "color": "red",
+  "number": 36,
+  "isPositive": true
+},
+{
+  "spin": 652,
+  "isEven": true,
+  "color": "red",
+  "number": 16,
+  "isPositive": true
+},
+{
+  "spin": 653,
+  "isEven": false,
+  "color": "black",
+  "number": 13,
+  "isPositive": true
+},
+{
+  "spin": 654,
+  "isEven": true,
+  "color": "black",
+  "number": 22,
+  "isPositive": true
+},
+{
+  "spin": 655,
+  "isEven": false,
+  "color": "black",
+  "number": 11,
+  "isPositive": true
+},
+{
+  "spin": 656,
+  "isEven": true,
+  "color": "black",
+  "number": 8,
+  "isPositive": true
+},
+{
+  "spin": 657,
+  "isEven": true,
+  "color": "black",
+  "number": 8,
+  "isPositive": true
+},
+{
+  "spin": 658,
+  "isEven": true,
+  "color": "red",
+  "number": 34,
+  "isPositive": true
+},
+{
+  "spin": 659,
+  "isEven": false,
+  "color": "black",
+  "number": 11,
+  "isPositive": true
+},
+{
+  "spin": 660,
+  "isEven": false,
+  "color": "black",
+  "number": 33,
+  "isPositive": true
+},
+{
+  "spin": 661,
+  "isEven": false,
+  "color": "red",
+  "number": 7,
+  "isPositive": true
+},
+{
+  "spin": 662,
+  "isEven": true,
+  "color": "red",
+  "number": 36,
+  "isPositive": true
+},
+{
+  "spin": 663,
+  "isEven": false,
+  "color": "red",
+  "number": 23,
+  "isPositive": true
+},
+{
+  "spin": 664,
+  "isEven": false,
+  "color": "green",
+  "number": 0,
+  "isPositive": false
+},
+{
+  "spin": 665,
+  "isEven": true,
+  "color": "black",
+  "number": 24,
+  "isPositive": true
+},
+{
+  "spin": 666,
+  "isEven": false,
+  "color": "black",
+  "number": 13,
+  "isPositive": true
+},
+{
+  "spin": 667,
+  "isEven": true,
+  "color": "black",
+  "number": 2,
+  "isPositive": true
+},
+{
+  "spin": 668,
+  "isEven": false,
+  "color": "black",
+  "number": 15,
+  "isPositive": true
+},
+{
+  "spin": 669,
+  "isEven": false,
+  "color": "red",
+  "number": 23,
+  "isPositive": true
+},
+{
+  "spin": 670,
+  "isEven": false,
+  "color": "black",
+  "number": 17,
+  "isPositive": true
+},
+{
+  "spin": 671,
+  "isEven": false,
+  "color": "red",
+  "number": 19,
+  "isPositive": true
+},
+{
+  "spin": 672,
+  "isEven": true,
+  "color": "red",
+  "number": 32,
+  "isPositive": true
+},
+{
+  "spin": 673,
+  "isEven": false,
+  "color": "red",
+  "number": 7,
+  "isPositive": true
+},
+{
+  "spin": 674,
+  "isEven": false,
+  "color": "black",
+  "number": 31,
+  "isPositive": true
+},
+{
+  "spin": 675,
+  "isEven": true,
+  "color": "black",
+  "number": 10,
+  "isPositive": true
+},
+{
+  "spin": 676,
+  "isEven": false,
+  "color": "red",
+  "number": 1,
+  "isPositive": true
+},
+{
+  "spin": 677,
+  "isEven": false,
+  "color": "red",
+  "number": 21,
+  "isPositive": true
+},
+{
+  "spin": 678,
+  "isEven": true,
+  "color": "black",
+  "number": 20,
+  "isPositive": true
+},
+{
+  "spin": 679,
+  "isEven": false,
+  "color": "black",
+  "number": 35,
+  "isPositive": true
+},
+{
+  "spin": 680,
+  "isEven": true,
+  "color": "black",
+  "number": 10,
+  "isPositive": true
+},
+{
+  "spin": 681,
+  "isEven": false,
+  "color": "red",
+  "number": 27,
+  "isPositive": true
+},
+{
+  "spin": 682,
+  "isEven": true,
+  "color": "red",
+  "number": 34,
+  "isPositive": true
+},
+{
+  "spin": 683,
+  "isEven": true,
+  "color": "red",
+  "number": 12,
+  "isPositive": true
+},
+{
+  "spin": 684,
+  "isEven": true,
+  "color": "red",
+  "number": 14,
+  "isPositive": true
+},
+{
+  "spin": 685,
+  "isEven": true,
+  "color": "black",
+  "number": 8,
+  "isPositive": true
+},
+{
+  "spin": 686,
+  "isEven": false,
+  "color": "black",
+  "number": 11,
+  "isPositive": true
+},
+{
+  "spin": 687,
+  "isEven": false,
+  "color": "black",
+  "number": 33,
+  "isPositive": true
+},
+{
+  "spin": 688,
+  "isEven": false,
+  "color": "black",
+  "number": 31,
+  "isPositive": true
+},
+{
+  "spin": 689,
+  "isEven": false,
+  "color": "red",
+  "number": 5,
+  "isPositive": true
+},
+{
+  "spin": 690,
+  "isEven": false,
+  "color": "red",
+  "number": 9,
+  "isPositive": true
+},
+{
+  "spin": 691,
+  "isEven": false,
+  "color": "black",
+  "number": 13,
+  "isPositive": true
+},
+{
+  "spin": 692,
+  "isEven": true,
+  "color": "red",
+  "number": 34,
+  "isPositive": true
+},
+{
+  "spin": 693,
+  "isEven": false,
+  "color": "red",
+  "number": 21,
+  "isPositive": true
+},
+{
+  "spin": 694,
+  "isEven": true,
+  "color": "red",
+  "number": 14,
+  "isPositive": true
+},
+{
+  "spin": 695,
+  "isEven": true,
+  "color": "black",
+  "number": 6,
+  "isPositive": true
+},
+{
+  "spin": 696,
+  "isEven": false,
+  "color": "black",
+  "number": 11,
+  "isPositive": true
+},
+{
+  "spin": 697,
+  "isEven": false,
+  "color": "red",
+  "number": 19,
+  "isPositive": true
+},
+{
+  "spin": 698,
+  "isEven": true,
+  "color": "black",
+  "number": 8,
+  "isPositive": true
+},
+{
+  "spin": 699,
+  "isEven": false,
+  "color": "black",
+  "number": 29,
+  "isPositive": true
+},
+{
+  "spin": 700,
+  "isEven": false,
+  "color": "red",
+  "number": 27,
+  "isPositive": true
+},
+{
+  "spin": 701,
+  "isEven": false,
+  "color": "black",
+  "number": 11,
+  "isPositive": true
+},
+{
+  "spin": 702,
+  "isEven": false,
+  "color": "black",
+  "number": 29,
+  "isPositive": true
+},
+{
+  "spin": 703,
+  "isEven": true,
+  "color": "red",
+  "number": 34,
+  "isPositive": true
+},
+{
+  "spin": 704,
+  "isEven": false,
+  "color": "black",
+  "number": 29,
+  "isPositive": true
+},
+{
+  "spin": 705,
+  "isEven": true,
+  "color": "black",
+  "number": 10,
+  "isPositive": true
+},
+{
+  "spin": 706,
+  "isEven": true,
+  "color": "black",
+  "number": 22,
+  "isPositive": true
+},
+{
+  "spin": 707,
+  "isEven": true,
+  "color": "black",
+  "number": 26,
+  "isPositive": true
+},
+{
+  "spin": 708,
+  "isEven": false,
+  "color": "black",
+  "number": 33,
+  "isPositive": true
+},
+{
+  "spin": 709,
+  "isEven": false,
+  "color": "red",
+  "number": 23,
+  "isPositive": true
+},
+{
+  "spin": 710,
+  "isEven": false,
+  "color": "black",
+  "number": 11,
+  "isPositive": true
+},
+{
+  "spin": 711,
+  "isEven": false,
+  "color": "black",
+  "number": 17,
+  "isPositive": true
+},
+{
+  "spin": 712,
+  "isEven": false,
+  "color": "red",
+  "number": 5,
+  "isPositive": true
+},
+{
+  "spin": 713,
+  "isEven": false,
+  "color": "black",
+  "number": 13,
+  "isPositive": true
+},
+{
+  "spin": 714,
+  "isEven": false,
+  "color": "red",
+  "number": 27,
+  "isPositive": true
+},
+{
+  "spin": 715,
+  "isEven": false,
+  "color": "black",
+  "number": 31,
+  "isPositive": true
+},
+{
+  "spin": 716,
+  "isEven": false,
+  "color": "red",
+  "number": 23,
+  "isPositive": true
+},
+{
+  "spin": 717,
+  "isEven": false,
+  "color": "red",
+  "number": 5,
+  "isPositive": true
+},
+{
+  "spin": 718,
+  "isEven": true,
+  "color": "black",
+  "number": 20,
+  "isPositive": true
+},
+{
+  "spin": 719,
+  "isEven": false,
+  "color": "red",
+  "number": 27,
+  "isPositive": true
+},
+{
+  "spin": 720,
+  "isEven": true,
+  "color": "red",
+  "number": 32,
+  "isPositive": true
+},
+{
+  "spin": 721,
+  "isEven": false,
+  "color": "black",
+  "number": 31,
+  "isPositive": true
+},
+{
+  "spin": 722,
+  "isEven": false,
+  "color": "red",
+  "number": 5,
+  "isPositive": true
+},
+{
+  "spin": 723,
+  "isEven": false,
+  "color": "red",
+  "number": 9,
+  "isPositive": true
+},
+{
+  "spin": 724,
+  "isEven": true,
+  "color": "black",
+  "number": 10,
+  "isPositive": true
+},
+{
+  "spin": 725,
+  "isEven": true,
+  "color": "black",
+  "number": 22,
+  "isPositive": true
+},
+{
+  "spin": 726,
+  "isEven": true,
+  "color": "red",
+  "number": 30,
+  "isPositive": true
+},
+{
+  "spin": 727,
+  "isEven": false,
+  "color": "black",
+  "number": 17,
+  "isPositive": true
+},
+{
+  "spin": 728,
+  "isEven": true,
+  "color": "black",
+  "number": 4,
+  "isPositive": true
+},
+{
+  "spin": 729,
+  "isEven": true,
+  "color": "black",
+  "number": 26,
+  "isPositive": true
+},
+{
+  "spin": 730,
+  "isEven": true,
+  "color": "black",
+  "number": 24,
+  "isPositive": true
+},
+{
+  "spin": 731,
+  "isEven": false,
+  "color": "red",
+  "number": 25,
+  "isPositive": true
+},
+{
+  "spin": 732,
+  "isEven": false,
+  "color": "red",
+  "number": 9,
+  "isPositive": true
+},
+{
+  "spin": 733,
+  "isEven": false,
+  "color": "black",
+  "number": 13,
+  "isPositive": true
+},
+{
+  "spin": 734,
+  "isEven": false,
+  "color": "green",
+  "number": 0,
+  "isPositive": false
+},
+{
+  "spin": 735,
+  "isEven": true,
+  "color": "black",
+  "number": 26,
+  "isPositive": true
+},
+{
+  "spin": 736,
+  "isEven": false,
+  "color": "red",
+  "number": 19,
+  "isPositive": true
+},
+{
+  "spin": 737,
+  "isEven": true,
+  "color": "black",
+  "number": 28,
+  "isPositive": true
+},
+{
+  "spin": 738,
+  "isEven": false,
+  "color": "black",
+  "number": 11,
+  "isPositive": true
+},
+{
+  "spin": 739,
+  "isEven": true,
+  "color": "black",
+  "number": 24,
+  "isPositive": true
+},
+{
+  "spin": 740,
+  "isEven": true,
+  "color": "red",
+  "number": 16,
+  "isPositive": true
+},
+{
+  "spin": 741,
+  "isEven": false,
+  "color": "red",
+  "number": 19,
+  "isPositive": true
+},
+{
+  "spin": 742,
+  "isEven": false,
+  "color": "red",
+  "number": 9,
+  "isPositive": true
+},
+{
+  "spin": 743,
+  "isEven": true,
+  "color": "red",
+  "number": 14,
+  "isPositive": true
+},
+{
+  "spin": 744,
+  "isEven": false,
+  "color": "black",
+  "number": 11,
+  "isPositive": true
+},
+{
+  "spin": 745,
+  "isEven": true,
+  "color": "red",
+  "number": 12,
+  "isPositive": true
+},
+{
+  "spin": 746,
+  "isEven": true,
+  "color": "red",
+  "number": 34,
+  "isPositive": true
+},
+{
+  "spin": 747,
+  "isEven": true,
+  "color": "red",
+  "number": 34,
+  "isPositive": true
+},
+{
+  "spin": 748,
+  "isEven": false,
+  "color": "green",
+  "number": -1,
+  "isPositive": false
+},
+{
+  "spin": 749,
+  "isEven": true,
+  "color": "black",
+  "number": 8,
+  "isPositive": true
+},
+{
+  "spin": 750,
+  "isEven": false,
+  "color": "black",
+  "number": 17,
+  "isPositive": true
+},
+{
+  "spin": 751,
+  "isEven": false,
+  "color": "black",
+  "number": 33,
+  "isPositive": true
+},
+{
+  "spin": 752,
+  "isEven": true,
+  "color": "black",
+  "number": 4,
+  "isPositive": true
+},
+{
+  "spin": 753,
+  "isEven": true,
+  "color": "black",
+  "number": 20,
+  "isPositive": true
+},
+{
+  "spin": 754,
+  "isEven": false,
+  "color": "black",
+  "number": 31,
+  "isPositive": true
+},
+{
+  "spin": 755,
+  "isEven": true,
+  "color": "red",
+  "number": 36,
+  "isPositive": true
+},
+{
+  "spin": 756,
+  "isEven": false,
+  "color": "black",
+  "number": 31,
+  "isPositive": true
+},
+{
+  "spin": 757,
+  "isEven": true,
+  "color": "red",
+  "number": 14,
+  "isPositive": true
+},
+{
+  "spin": 758,
+  "isEven": true,
+  "color": "red",
+  "number": 36,
+  "isPositive": true
+},
+{
+  "spin": 759,
+  "isEven": true,
+  "color": "black",
+  "number": 26,
+  "isPositive": true
+},
+{
+  "spin": 760,
+  "isEven": false,
+  "color": "red",
+  "number": 25,
+  "isPositive": true
+},
+{
+  "spin": 761,
+  "isEven": true,
+  "color": "black",
+  "number": 10,
+  "isPositive": true
+},
+{
+  "spin": 762,
+  "isEven": true,
+  "color": "black",
+  "number": 28,
+  "isPositive": true
+},
+{
+  "spin": 763,
+  "isEven": true,
+  "color": "red",
+  "number": 32,
+  "isPositive": true
+},
+{
+  "spin": 764,
+  "isEven": false,
+  "color": "black",
+  "number": 11,
+  "isPositive": true
+},
+{
+  "spin": 765,
+  "isEven": false,
+  "color": "red",
+  "number": 19,
+  "isPositive": true
+},
+{
+  "spin": 766,
+  "isEven": true,
+  "color": "black",
+  "number": 4,
+  "isPositive": true
+},
+{
+  "spin": 767,
+  "isEven": true,
+  "color": "red",
+  "number": 16,
+  "isPositive": true
+},
+{
+  "spin": 768,
+  "isEven": true,
+  "color": "red",
+  "number": 34,
+  "isPositive": true
+},
+{
+  "spin": 769,
+  "isEven": true,
+  "color": "red",
+  "number": 18,
+  "isPositive": true
+},
+{
+  "spin": 770,
+  "isEven": false,
+  "color": "red",
+  "number": 3,
+  "isPositive": true
+},
+{
+  "spin": 771,
+  "isEven": false,
+  "color": "green",
+  "number": -1,
+  "isPositive": false
+},
+{
+  "spin": 772,
+  "isEven": false,
+  "color": "black",
+  "number": 29,
+  "isPositive": true
+},
+{
+  "spin": 773,
+  "isEven": true,
+  "color": "red",
+  "number": 16,
+  "isPositive": true
+},
+{
+  "spin": 774,
+  "isEven": false,
+  "color": "black",
+  "number": 31,
+  "isPositive": true
+},
+{
+  "spin": 775,
+  "isEven": false,
+  "color": "green",
+  "number": -1,
+  "isPositive": false
+},
+{
+  "spin": 776,
+  "isEven": false,
+  "color": "red",
+  "number": 21,
+  "isPositive": true
+},
+{
+  "spin": 777,
+  "isEven": true,
+  "color": "red",
+  "number": 34,
+  "isPositive": true
+},
+{
+  "spin": 778,
+  "isEven": false,
+  "color": "black",
+  "number": 15,
+  "isPositive": true
+},
+{
+  "spin": 779,
+  "isEven": true,
+  "color": "black",
+  "number": 28,
+  "isPositive": true
+},
+{
+  "spin": 780,
+  "isEven": false,
+  "color": "black",
+  "number": 15,
+  "isPositive": true
+},
+{
+  "spin": 781,
+  "isEven": false,
+  "color": "black",
+  "number": 31,
+  "isPositive": true
+},
+{
+  "spin": 782,
+  "isEven": false,
+  "color": "black",
+  "number": 29,
+  "isPositive": true
+},
+{
+  "spin": 783,
+  "isEven": false,
+  "color": "black",
+  "number": 13,
+  "isPositive": true
+},
+{
+  "spin": 784,
+  "isEven": false,
+  "color": "black",
+  "number": 35,
+  "isPositive": true
+},
+{
+  "spin": 785,
+  "isEven": true,
+  "color": "red",
+  "number": 30,
+  "isPositive": true
+},
+{
+  "spin": 786,
+  "isEven": true,
+  "color": "red",
+  "number": 32,
+  "isPositive": true
+},
+{
+  "spin": 787,
+  "isEven": false,
+  "color": "black",
+  "number": 33,
+  "isPositive": true
+},
+{
+  "spin": 788,
+  "isEven": false,
+  "color": "green",
+  "number": -1,
+  "isPositive": false
+},
+{
+  "spin": 789,
+  "isEven": false,
+  "color": "red",
+  "number": 3,
+  "isPositive": true
+},
+{
+  "spin": 790,
+  "isEven": false,
+  "color": "red",
+  "number": 9,
+  "isPositive": true
+},
+{
+  "spin": 791,
+  "isEven": true,
+  "color": "black",
+  "number": 22,
+  "isPositive": true
+},
+{
+  "spin": 792,
+  "isEven": true,
+  "color": "black",
+  "number": 10,
+  "isPositive": true
+},
+{
+  "spin": 793,
+  "isEven": true,
+  "color": "red",
+  "number": 30,
+  "isPositive": true
+},
+{
+  "spin": 794,
+  "isEven": false,
+  "color": "black",
+  "number": 17,
+  "isPositive": true
+},
+{
+  "spin": 795,
+  "isEven": false,
+  "color": "black",
+  "number": 31,
+  "isPositive": true
+},
+{
+  "spin": 796,
+  "isEven": false,
+  "color": "red",
+  "number": 9,
+  "isPositive": true
+},
+{
+  "spin": 797,
+  "isEven": false,
+  "color": "red",
+  "number": 3,
+  "isPositive": true
+},
+{
+  "spin": 798,
+  "isEven": true,
+  "color": "black",
+  "number": 24,
+  "isPositive": true
+},
+{
+  "spin": 799,
+  "isEven": true,
+  "color": "black",
+  "number": 6,
+  "isPositive": true
+},
+{
+  "spin": 800,
+  "isEven": false,
+  "color": "red",
+  "number": 9,
+  "isPositive": true
+},
+{
+  "spin": 801,
+  "isEven": true,
+  "color": "red",
+  "number": 18,
+  "isPositive": true
+},
+{
+  "spin": 802,
+  "isEven": false,
+  "color": "red",
+  "number": 1,
+  "isPositive": true
+},
+{
+  "spin": 803,
+  "isEven": false,
+  "color": "black",
+  "number": 33,
+  "isPositive": true
+},
+{
+  "spin": 804,
+  "isEven": true,
+  "color": "black",
+  "number": 4,
+  "isPositive": true
+},
+{
+  "spin": 805,
+  "isEven": false,
+  "color": "black",
+  "number": 29,
+  "isPositive": true
+},
+{
+  "spin": 806,
+  "isEven": true,
+  "color": "black",
+  "number": 2,
+  "isPositive": true
+},
+{
+  "spin": 807,
+  "isEven": false,
+  "color": "red",
+  "number": 9,
+  "isPositive": true
+},
+{
+  "spin": 808,
+  "isEven": true,
+  "color": "red",
+  "number": 12,
+  "isPositive": true
+},
+{
+  "spin": 809,
+  "isEven": true,
+  "color": "black",
+  "number": 2,
+  "isPositive": true
+},
+{
+  "spin": 810,
+  "isEven": true,
+  "color": "black",
+  "number": 26,
+  "isPositive": true
+},
+{
+  "spin": 811,
+  "isEven": false,
+  "color": "red",
+  "number": 5,
+  "isPositive": true
+},
+{
+  "spin": 812,
+  "isEven": true,
+  "color": "black",
+  "number": 2,
+  "isPositive": true
+},
+{
+  "spin": 813,
+  "isEven": true,
+  "color": "red",
+  "number": 18,
+  "isPositive": true
+},
+{
+  "spin": 814,
+  "isEven": true,
+  "color": "black",
+  "number": 2,
+  "isPositive": true
+},
+{
+  "spin": 815,
+  "isEven": false,
+  "color": "green",
+  "number": -1,
+  "isPositive": false
+},
+{
+  "spin": 816,
+  "isEven": true,
+  "color": "black",
+  "number": 20,
+  "isPositive": true
+},
+{
+  "spin": 817,
+  "isEven": true,
+  "color": "red",
+  "number": 14,
+  "isPositive": true
+},
+{
+  "spin": 818,
+  "isEven": true,
+  "color": "black",
+  "number": 22,
+  "isPositive": true
+},
+{
+  "spin": 819,
+  "isEven": false,
+  "color": "red",
+  "number": 9,
+  "isPositive": true
+},
+{
+  "spin": 820,
+  "isEven": true,
+  "color": "black",
+  "number": 2,
+  "isPositive": true
+},
+{
+  "spin": 821,
+  "isEven": true,
+  "color": "red",
+  "number": 12,
+  "isPositive": true
+},
+{
+  "spin": 822,
+  "isEven": true,
+  "color": "red",
+  "number": 12,
+  "isPositive": true
+},
+{
+  "spin": 823,
+  "isEven": false,
+  "color": "red",
+  "number": 23,
+  "isPositive": true
+},
+{
+  "spin": 824,
+  "isEven": false,
+  "color": "red",
+  "number": 25,
+  "isPositive": true
+},
+{
+  "spin": 825,
+  "isEven": false,
+  "color": "black",
+  "number": 11,
+  "isPositive": true
+},
+{
+  "spin": 826,
+  "isEven": false,
+  "color": "red",
+  "number": 25,
+  "isPositive": true
+},
+{
+  "spin": 827,
+  "isEven": true,
+  "color": "black",
+  "number": 20,
+  "isPositive": true
+},
+{
+  "spin": 828,
+  "isEven": false,
+  "color": "black",
+  "number": 11,
+  "isPositive": true
+},
+{
+  "spin": 829,
+  "isEven": true,
+  "color": "red",
+  "number": 32,
+  "isPositive": true
+},
+{
+  "spin": 830,
+  "isEven": true,
+  "color": "black",
+  "number": 8,
+  "isPositive": true
+},
+{
+  "spin": 831,
+  "isEven": true,
+  "color": "black",
+  "number": 22,
+  "isPositive": true
+},
+{
+  "spin": 832,
+  "isEven": true,
+  "color": "black",
+  "number": 6,
+  "isPositive": true
+},
+{
+  "spin": 833,
+  "isEven": false,
+  "color": "red",
+  "number": 23,
+  "isPositive": true
+},
+{
+  "spin": 834,
+  "isEven": false,
+  "color": "black",
+  "number": 29,
+  "isPositive": true
+},
+{
+  "spin": 835,
+  "isEven": true,
+  "color": "black",
+  "number": 28,
+  "isPositive": true
+},
+{
+  "spin": 836,
+  "isEven": true,
+  "color": "black",
+  "number": 8,
+  "isPositive": true
+},
+{
+  "spin": 837,
+  "isEven": false,
+  "color": "red",
+  "number": 21,
+  "isPositive": true
+},
+{
+  "spin": 838,
+  "isEven": true,
+  "color": "red",
+  "number": 18,
+  "isPositive": true
+},
+{
+  "spin": 839,
+  "isEven": false,
+  "color": "black",
+  "number": 17,
+  "isPositive": true
+},
+{
+  "spin": 840,
+  "isEven": false,
+  "color": "red",
+  "number": 7,
+  "isPositive": true
+},
+{
+  "spin": 841,
+  "isEven": true,
+  "color": "red",
+  "number": 12,
+  "isPositive": true
+},
+{
+  "spin": 842,
+  "isEven": true,
+  "color": "black",
+  "number": 8,
+  "isPositive": true
+},
+{
+  "spin": 843,
+  "isEven": false,
+  "color": "black",
+  "number": 31,
+  "isPositive": true
+},
+{
+  "spin": 844,
+  "isEven": true,
+  "color": "black",
+  "number": 20,
+  "isPositive": true
+},
+{
+  "spin": 845,
+  "isEven": false,
+  "color": "red",
+  "number": 7,
+  "isPositive": true
+},
+{
+  "spin": 846,
+  "isEven": true,
+  "color": "black",
+  "number": 26,
+  "isPositive": true
+},
+{
+  "spin": 847,
+  "isEven": true,
+  "color": "black",
+  "number": 8,
+  "isPositive": true
+},
+{
+  "spin": 848,
+  "isEven": true,
+  "color": "black",
+  "number": 4,
+  "isPositive": true
+},
+{
+  "spin": 849,
+  "isEven": false,
+  "color": "red",
+  "number": 5,
+  "isPositive": true
+},
+{
+  "spin": 850,
+  "isEven": false,
+  "color": "black",
+  "number": 13,
+  "isPositive": true
+},
+{
+  "spin": 851,
+  "isEven": true,
+  "color": "black",
+  "number": 8,
+  "isPositive": true
+},
+{
+  "spin": 852,
+  "isEven": false,
+  "color": "red",
+  "number": 1,
+  "isPositive": true
+},
+{
+  "spin": 853,
+  "isEven": false,
+  "color": "black",
+  "number": 13,
+  "isPositive": true
+},
+{
+  "spin": 854,
+  "isEven": false,
+  "color": "green",
+  "number": 0,
+  "isPositive": false
+},
+{
+  "spin": 855,
+  "isEven": true,
+  "color": "black",
+  "number": 26,
+  "isPositive": true
+},
+{
+  "spin": 856,
+  "isEven": true,
+  "color": "black",
+  "number": 24,
+  "isPositive": true
+},
+{
+  "spin": 857,
+  "isEven": true,
+  "color": "red",
+  "number": 34,
+  "isPositive": true
+},
+{
+  "spin": 858,
+  "isEven": false,
+  "color": "red",
+  "number": 3,
+  "isPositive": true
+},
+{
+  "spin": 859,
+  "isEven": false,
+  "color": "black",
+  "number": 17,
+  "isPositive": true
+},
+{
+  "spin": 860,
+  "isEven": true,
+  "color": "black",
+  "number": 6,
+  "isPositive": true
+},
+{
+  "spin": 861,
+  "isEven": false,
+  "color": "black",
+  "number": 15,
+  "isPositive": true
+},
+{
+  "spin": 862,
+  "isEven": true,
+  "color": "black",
+  "number": 20,
+  "isPositive": true
+},
+{
+  "spin": 863,
+  "isEven": false,
+  "color": "black",
+  "number": 11,
+  "isPositive": true
+},
+{
+  "spin": 864,
+  "isEven": false,
+  "color": "red",
+  "number": 25,
+  "isPositive": true
+},
+{
+  "spin": 865,
+  "isEven": false,
+  "color": "red",
+  "number": 5,
+  "isPositive": true
+},
+{
+  "spin": 866,
+  "isEven": true,
+  "color": "black",
+  "number": 2,
+  "isPositive": true
+},
+{
+  "spin": 867,
+  "isEven": false,
+  "color": "red",
+  "number": 3,
+  "isPositive": true
+},
+{
+  "spin": 868,
+  "isEven": false,
+  "color": "black",
+  "number": 13,
+  "isPositive": true
+},
+{
+  "spin": 869,
+  "isEven": false,
+  "color": "black",
+  "number": 15,
+  "isPositive": true
+},
+{
+  "spin": 870,
+  "isEven": false,
+  "color": "red",
+  "number": 7,
+  "isPositive": true
+},
+{
+  "spin": 871,
+  "isEven": false,
+  "color": "red",
+  "number": 19,
+  "isPositive": true
+},
+{
+  "spin": 872,
+  "isEven": false,
+  "color": "red",
+  "number": 25,
+  "isPositive": true
+},
+{
+  "spin": 873,
+  "isEven": false,
+  "color": "red",
+  "number": 25,
+  "isPositive": true
+},
+{
+  "spin": 874,
+  "isEven": false,
+  "color": "green",
+  "number": 0,
+  "isPositive": false
+},
+{
+  "spin": 875,
+  "isEven": false,
+  "color": "green",
+  "number": -1,
+  "isPositive": false
+},
+{
+  "spin": 876,
+  "isEven": true,
+  "color": "red",
+  "number": 12,
+  "isPositive": true
+},
+{
+  "spin": 877,
+  "isEven": true,
+  "color": "black",
+  "number": 6,
+  "isPositive": true
+},
+{
+  "spin": 878,
+  "isEven": false,
+  "color": "black",
+  "number": 29,
+  "isPositive": true
+},
+{
+  "spin": 879,
+  "isEven": true,
+  "color": "red",
+  "number": 36,
+  "isPositive": true
+},
+{
+  "spin": 880,
+  "isEven": true,
+  "color": "black",
+  "number": 20,
+  "isPositive": true
+},
+{
+  "spin": 881,
+  "isEven": false,
+  "color": "red",
+  "number": 1,
+  "isPositive": true
+},
+{
+  "spin": 882,
+  "isEven": true,
+  "color": "red",
+  "number": 18,
+  "isPositive": true
+},
+{
+  "spin": 883,
+  "isEven": true,
+  "color": "black",
+  "number": 20,
+  "isPositive": true
+},
+{
+  "spin": 884,
+  "isEven": true,
+  "color": "red",
+  "number": 12,
+  "isPositive": true
+},
+{
+  "spin": 885,
+  "isEven": false,
+  "color": "black",
+  "number": 17,
+  "isPositive": true
+},
+{
+  "spin": 886,
+  "isEven": true,
+  "color": "red",
+  "number": 12,
+  "isPositive": true
+},
+{
+  "spin": 887,
+  "isEven": true,
+  "color": "black",
+  "number": 20,
+  "isPositive": true
+},
+{
+  "spin": 888,
+  "isEven": false,
+  "color": "green",
+  "number": -1,
+  "isPositive": false
+},
+{
+  "spin": 889,
+  "isEven": false,
+  "color": "black",
+  "number": 35,
+  "isPositive": true
+},
+{
+  "spin": 890,
+  "isEven": false,
+  "color": "red",
+  "number": 5,
+  "isPositive": true
+},
+{
+  "spin": 891,
+  "isEven": false,
+  "color": "black",
+  "number": 11,
+  "isPositive": true
+},
+{
+  "spin": 892,
+  "isEven": true,
+  "color": "black",
+  "number": 6,
+  "isPositive": true
+},
+{
+  "spin": 893,
+  "isEven": false,
+  "color": "black",
+  "number": 31,
+  "isPositive": true
+},
+{
+  "spin": 894,
+  "isEven": false,
+  "color": "red",
+  "number": 7,
+  "isPositive": true
+},
+{
+  "spin": 895,
+  "isEven": true,
+  "color": "black",
+  "number": 26,
+  "isPositive": true
+},
+{
+  "spin": 896,
+  "isEven": false,
+  "color": "green",
+  "number": -1,
+  "isPositive": false
+},
+{
+  "spin": 897,
+  "isEven": true,
+  "color": "red",
+  "number": 12,
+  "isPositive": true
+},
+{
+  "spin": 898,
+  "isEven": false,
+  "color": "black",
+  "number": 13,
+  "isPositive": true
+},
+{
+  "spin": 899,
+  "isEven": false,
+  "color": "black",
+  "number": 11,
+  "isPositive": true
+},
+{
+  "spin": 900,
+  "isEven": false,
+  "color": "black",
+  "number": 17,
+  "isPositive": true
+},

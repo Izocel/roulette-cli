@@ -1,5 +1,7 @@
+import { appendFileSync } from "fs";
+import { join } from "path";
 import { isBlack } from "../Game/GameRules.js";
-import { game } from "./MainEntry.js";
+import { __exportsPath, game, ymd } from "./MainEntry.js";
 
 export async function HouseTurnAction() {
   const number = nothingGoes();
@@ -19,8 +21,10 @@ export async function HouseTurnAction() {
 
 async function onHouseReport() {
   console.log();
-  console.log("HouseData:");
-  console.beautify(game.lastResults);
+  console.log({ HouseData: game.lastResults });
+
+  const filePath = join(__exportsPath, `houseResults-${ymd}.json`);
+  appendFileSync(filePath, JSON.stringify(game.lastResults, null, 2) + ",\n");
 }
 
 function nothingGoes(isAmerican = true) {
