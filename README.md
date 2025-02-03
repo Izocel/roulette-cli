@@ -1,5 +1,6 @@
 https://www.roulettestar.com/guide/probability/
 
+![American-Roulette-Table-Layout](https://github.com/user-attachments/assets/ede99e8a-0104-488f-8115-29b7096b2b24)
 
 ![american-roulette-probabilities](https://github.com/user-attachments/assets/0611f62b-d764-4fea-9517-b84f001493b0)
 
