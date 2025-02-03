@@ -1,0 +1,27 @@
+{
+  "name": "roulette-cli",
+  "displayName": "Roulette CLI",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "bin": {
+    "roulette-cli": "src/index.js"
+  },
+  "scripts": {
+    "start": "roulette-cli",
+    "build": "rm -rf package-lock.json && npm update --save && npm link"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "csv": "^6.3.11",
+    "figlet": "^1.8.0",
+    "inquirer": "^12.4.1",
+    "ora": "^8.2.0",
+    "roulette-cli": "file:"
+  }
+}
