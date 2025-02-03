@@ -13,7 +13,7 @@ const DefaultsBets = [
     rules: {
       betMin: 4.0,
       betMax: 4.0,
-      alwaysReopen: true,
+      alwaysReopen: false,
       alwaysClose: false,
     },
   },
@@ -59,24 +59,51 @@ const DefaultsBets = [
 // https://www.youtube.com/watch?v=rMcWDRGIyhk&t=621s
 class BBCPlayer extends Player {
   name = "BBCPlayer";
-  closeAllOnLoser = true;
+  closeAllOnLoser = false;
   bets = JsonBind(DefaultsBets);
-  balance = 6_000_000.0;
+  balance = 1_000.0;
 
   applyStrategy() {
-    // Other open/close rules will be managed automatically via Player.js
     if (!game.lastResults.spin) {
       this.onOpenBet(this.bets[0]);
-    }
-
-    if (this.bets[0].stats.isWinner) {
-      this.onOpenBet(this.bets[1]);
-    }
-
-    if (this.bets[1].stats.isWinner) {
-      this.onOpenBet(this.bets[2]);
-      this.onOpenBet(this.bets[3]);
       return;
+    }
+
+    let totalGains = 0;
+    let totalLost = 0;
+    let absoluteGains = 0;
+    let totalMaxGains = 0;
+
+    this.bets.forEach((b) => {
+      totalGains += b.stats.isWinner ? b.stats.lastGains : 0;
+      totalLost += b.stats.isLoser ? b.stats.lastGains : 0;
+
+      totalMaxGains += b.rules.betMax * b.payoutRatio;
+      absoluteGains = totalGains + totalLost;
+    });
+
+    // We close all gains and 'reset' when all bets are winned
+    if (absoluteGains >= totalMaxGains) {
+      this.onCloseBet(this.bets[1]);
+      this.onCloseBet(this.bets[2]);
+      this.onCloseBet(this.bets[3]);
+
+      this.onOpenBet(this.bets[0]);
+      return;
+    }
+
+    // We reopen potential bets with gains
+    if (absoluteGains > 0) {
+      this.bets.forEach((b) => {
+        if (b.isActive && b.value) {
+          return;
+        }
+
+        absoluteGains -= b.rules.betMin;
+        if (absoluteGains >= 0) {
+          this.onOpenBet(b);
+        }
+      });
     }
   }
 }
