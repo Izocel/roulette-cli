@@ -83,12 +83,14 @@ export class Player {
     b.rules.betMax = Math.abs(max ?? b.rules.betMax);
 
     value = Math.abs(value ?? b.value ?? 0.0);
+    let cost = 0;
 
     // Balance overflowing gains
     if (b.rules.betMax && b.value && b.value > b.rules.betMax) {
-      this.balance += b.value - b.rules.betMax;
+      cost = b.value - b.rules.betMax;
+      this.balance += cost;
       b.value = b.rules.betMax;
-      return;
+      return cost;
     }
 
     if (b.rules.betMin) {
@@ -99,9 +101,8 @@ export class Player {
       value = Math.min(value, b.rules.betMax);
     }
 
-    const cost = b.value - value;
-
-    if (this.balance - cost < 0) {
+    cost = b.value - value;
+    if (this.balance + cost < 0) {
       console.error(
         "Not enough balance to open bet:",
         b.name,
@@ -118,6 +119,8 @@ export class Player {
     this.balance += cost;
     b.isActive = true;
     b.value -= cost;
+
+    return cost;
   }
 
   onCloseBet(b) {

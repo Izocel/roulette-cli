@@ -5,7 +5,7 @@ const configs = {
 
   game: {
     players: [],
-    totalSpins: 2000,
+    totalSpins: 10_000,
     type: "American",
 
     lastResults: {

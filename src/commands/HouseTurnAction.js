@@ -19,7 +19,7 @@ export async function HouseTurnAction() {
 
 async function onHouseReport() {
   console.log();
-  console.log("SpinResults:");
+  console.log("HouseData:");
   console.beautify(game.lastResults);
 }
 

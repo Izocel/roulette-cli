@@ -1,5 +1,5 @@
 import { initialBetStats } from "../Bets/Bet.js";
-import { game, JsonBind } from "../commands/MainEntry.js";
+import { JsonBind } from "../commands/MainEntry.js";
 import { BetPossibilities } from "../Game/GameRules.js";
 import { Player } from "./Player.js";
 
@@ -26,6 +26,7 @@ const DefaultsBets = [
     rules: {
       betMin: 4.0,
       betMax: 4.0,
+      alwaysReopen: false,
       alwaysClose: false,
     },
   },
@@ -38,6 +39,7 @@ const DefaultsBets = [
     rules: {
       betMin: 4.0,
       betMax: 4.0,
+      alwaysReopen: false,
       alwaysClose: false,
     },
   },
@@ -50,6 +52,7 @@ const DefaultsBets = [
     rules: {
       betMin: 4.0,
       betMax: 4.0,
+      alwaysReopen: false,
       alwaysClose: false,
     },
   },
@@ -64,47 +67,62 @@ class BBCPlayer extends Player {
   balance = 1_000.0;
 
   applyStrategy() {
-    if (!game.lastResults.spin) {
-      this.onOpenBet(this.bets[0]);
-      return;
-    }
-
     let totalGains = 0;
     let totalLost = 0;
     let absoluteGains = 0;
-    let totalMaxGains = 0;
+    let totalMaxGains = 16;
 
     this.bets.forEach((b) => {
       totalGains += b.stats.isWinner ? b.stats.lastGains : 0;
       totalLost += b.stats.isLoser ? b.stats.lastGains : 0;
-
-      totalMaxGains += b.rules.betMax * b.payoutRatio;
       absoluteGains = totalGains + totalLost;
     });
 
-    // We close all gains and 'reset' when all bets are winned
+    // Is the default bet to be opened 'Big'
+    absoluteGains += this.onOpenBet(this.bets[0]);
+    absoluteGains = Math.min(totalGains, absoluteGains);
+
+    // We close all gains when all bets are winned
     if (absoluteGains >= totalMaxGains) {
       this.onCloseBet(this.bets[1]);
       this.onCloseBet(this.bets[2]);
       this.onCloseBet(this.bets[3]);
-
-      this.onOpenBet(this.bets[0]);
       return;
     }
 
-    // We reopen potential bets with gains
-    if (absoluteGains > 0) {
-      this.bets.forEach((b) => {
-        if (b.isActive && b.value) {
-          return;
-        }
-
-        absoluteGains -= b.rules.betMin;
-        if (absoluteGains >= 0) {
-          this.onOpenBet(b);
-        }
-      });
+    if (this.bets[0].stats.isWinner) {
+      absoluteGains += this.onOpenBet(this.bets[1]);
+      absoluteGains = Math.min(totalGains, absoluteGains);
     }
+
+    // We open c1 & c2
+    // If last turn was composed of 'Big - Black' winner
+    if (this.bets[0].stats.isWinner && this.bets[1].stats.isWinner) {
+      absoluteGains += this.onOpenBet(this.bets[2]);
+      absoluteGains = Math.min(totalGains, absoluteGains);
+
+      absoluteGains += this.onOpenBet(this.bets[3]);
+      absoluteGains = Math.min(totalGains, absoluteGains);
+      return;
+    }
+
+    // Only one column can be winner in a single turn.
+    // It can provide gains to complete 'full positioning'.
+    if (this.bets[2].stats.isWinner || this.bets[3].stats.isWinner) {
+      for (let i = 1; i < this.bets.length; i++) {
+        if (this.bets[i].stats.isWinner) continue;
+
+        if (absoluteGains > 0) {
+          absoluteGains += this.onOpenBet(this.bets[i]);
+          absoluteGains = Math.min(totalGains, absoluteGains);
+        }
+      }
+    }
+
+    // Collects unmanaged values
+    this.bets.forEach((b) => {
+      b.isActive && this.onOpenBet(b);
+    });
   }
 }
 
