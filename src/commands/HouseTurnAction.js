@@ -1,5 +1,6 @@
 import { appendFileSync } from "fs";
 import { join } from "path";
+import random from "random";
 import { isBlack } from "../Game/GameRules.js";
 import { __exportsPath, game, ymd } from "./MainEntry.js";
 
@@ -35,14 +36,7 @@ async function onHouseReport() {
 }
 
 function nothingGoes(isAmerican = true) {
-  const max = 36;
-  const min = isAmerican ? -1 : 0;
-  const range = max - min + 1;
-  const randomBuffer = new Uint32Array(1);
-  window.crypto.getRandomValues(randomBuffer);
-  const randomNumber = randomBuffer[0] / (0xffffffff + 1);
-
-  return Math.floor(randomNumber * range) + min;
+  return random.uniform(isAmerican ? -1 : 0, 36);
 }
 
 function parsePlayersBets() {
