@@ -10,7 +10,11 @@ const DefaultsBets = [
     ...BaseBetStruct,
     ...BetPossibilities.evenMoneyBets.high,
     name: "Big/High 1:1 - Initial bet",
-    alwaysOpen: true,
+    rules: {
+      alwaysOpen: true,
+      betMin: 4.0,
+      betMax: 4.0,
+    },
   },
   {
     ...BaseBetStruct,

@@ -1,6 +1,6 @@
 import { appendFileSync } from "fs";
 import { join } from "path";
-import { __exportsPath, ymd } from "../commands/MainEntry.js";
+import { __exportsPath, JsonBind, ymd } from "../commands/MainEntry.js";
 
 export class Player {
   bets = [];
@@ -179,15 +179,32 @@ export class Player {
   }
 
   async onReport(reportName) {
-    console.log();
-    const obj = {
-      reportName: `${reportName} - ${this.name}`,
-      lastTurnStats: this.lastTurnStats,
-      gameStats: this.gameStats,
-    };
+    const obj = JsonBind({ ...this });
+    obj.name = `${this.name}-${reportName}`;
 
     const filePath = join(__exportsPath, `${this.name}-${ymd}.json`);
     appendFileSync(filePath, JSON.stringify(obj, null, 2) + ",\n");
+
+    console.log();
+    console.log(
+      "-----------------------------------------------------------------------------------------------------"
+    );
+    console.log(obj.name);
+    console.log(
+      "-----------------------------------------------------------------------------------------------------"
+    );
+    console.table({ gameStats: obj.gameStats });
+
+    if (reportName === "AfterHouse") {
+      delete obj.lastTurnStats.losers;
+      delete obj.lastTurnStats.winners;
+
+      console.table({ lastTurnStats: obj.lastTurnStats });
+      console.debug({ winners: JsonBind(this.lastTurnStats.winners) });
+      console.debug({ losers: JsonBind(this.lastTurnStats.losers) });
+    } else {
+      console.debug({ bets: JsonBind(obj.bets.filter((b) => b.isActive)) });
+    }
     this.resetStats();
   }
 
@@ -197,9 +214,28 @@ export class Player {
   }
 
   resetStats() {
-    if (!this.minBalance) this.minBalance = this.gameStats.balance;
-    this.minBalance = Math.min(this.gameStats.balance, this.minBalance);
-    this.maxBalance = Math.max(this.gameStats.balance, this.maxBalance);
-    this.lastTurnStats = {};
+    if (!this.gameStats.minBalance)
+      this.gameStats.minBalance = this.gameStats.balance;
+
+    this.gameStats.minBalance = Math.min(
+      this.gameStats.balance,
+      this.gameStats.minBalance
+    );
+
+    this.gameStats.maxBalance = Math.max(
+      this.gameStats.balance,
+      this.gameStats.maxBalance
+    );
+
+    this.lastTurnStats = {
+      betCount: 0,
+      totalValue: 0,
+      totalGains: 0,
+      totalLost: 0,
+      absoluteGains: 0,
+      potentialGains: 0,
+      losers: [],
+      winners: [],
+    };
   }
 }

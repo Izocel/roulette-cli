@@ -21,7 +21,14 @@ export async function HouseTurnAction() {
 
 async function onHouseReport() {
   console.log();
-  console.log({ HouseData: game.lastResults });
+  console.log(
+    "-----------------------------------------------------------------------------------------------------"
+  );
+  console.log("HouseData");
+  console.log(
+    "-----------------------------------------------------------------------------------------------------"
+  );
+  console.table(game.lastResults);
 
   const filePath = join(__exportsPath, `houseResults-${ymd}.json`);
   appendFileSync(filePath, JSON.stringify(game.lastResults, null, 2) + ",\n");
@@ -55,6 +62,10 @@ function parsePlayersBets() {
         continue;
       }
 
+      player.lastTurnStats.potentialGains += bet.value * bet.payoutRatio;
+      player.lastTurnStats.betCount++;
+      player.lastTurnStats.totalValue += bet.value;
+
       // Winner case
       if (bet.targets.includes(game.lastResults.number)) {
         bet.stats.wasWin = true;
@@ -62,11 +73,14 @@ function parsePlayersBets() {
         bet.stats.winStreak++;
         bet.stats.winNb++;
 
-        bet.gain = bet.value * bet.payoutRatio;
-        bet.value += bet.gain;
+        bet.gains = bet.value * bet.payoutRatio;
+        bet.value += bet.gains;
 
-        player.gameStats.pnl += bet.gain;
         player.gameStats.betWinCount++;
+        player.gameStats.pnl += bet.gains;
+        player.lastTurnStats.totalGains += bet.gains;
+        player.lastTurnStats.absoluteGains += bet.gains;
+        player.lastTurnStats.winners.push(bet);
         return;
       }
 
@@ -75,11 +89,14 @@ function parsePlayersBets() {
       bet.stats.loseStreak++;
       bet.stats.loseNb++;
 
-      bet.gain = -bet.value;
+      bet.gains = -bet.value;
       bet.value = 0.0;
 
-      player.betLoseCount++;
-      player.gameStats.pnl += bet.gain;
+      player.gameStats.betLoseCount++;
+      player.gameStats.pnl += bet.gains;
+      player.lastTurnStats.totalLost += bet.gains;
+      player.lastTurnStats.absoluteGains += bet.gains;
+      player.lastTurnStats.losers.push(bet);
       player.onCloseBet(bet);
     }
   }
