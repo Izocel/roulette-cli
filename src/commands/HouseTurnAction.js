@@ -53,17 +53,20 @@ function parsePlayersBets() {
     player.resetStats();
     for (let j = 0; j < player.bets.length; j++) {
       const bet = player.bets[j];
+
       bet.stats.lastValue = bet.value;
+      bet.stats.wasInPlay = true;
 
       if (!bet.isActive || bet.value <= 0) {
+        bet.stats.wasInPlay = false;
         bet.stats.loseStreak = 0;
         bet.stats.winStreak = 0;
         bet.isActive = false;
         continue;
       }
 
-      player.lastTurnStats.potentialGains += bet.value * bet.payoutRatio;
       player.lastTurnStats.betCount++;
+      player.lastTurnStats.potentialGains += bet.value * bet.payoutRatio;
       player.lastTurnStats.totalValue += bet.value;
 
       // Winner case

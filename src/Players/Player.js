@@ -205,7 +205,7 @@ export class Player {
     } else {
       console.debug({ bets: JsonBind(obj.bets.filter((b) => b.isActive)) });
     }
-    this.resetStats();
+    this.updateStats();
   }
 
   onLeave() {
@@ -213,7 +213,7 @@ export class Player {
     this.onReport("onLeave");
   }
 
-  resetStats() {
+  updateStats() {
     if (!this.gameStats.minBalance)
       this.gameStats.minBalance = this.gameStats.balance;
 
@@ -226,7 +226,10 @@ export class Player {
       this.gameStats.balance,
       this.gameStats.maxBalance
     );
+  }
 
+  resetStats() {
+    this.updateStats();
     this.lastTurnStats = {
       betCount: 0,
       totalValue: 0,

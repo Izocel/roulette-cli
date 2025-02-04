@@ -7,6 +7,7 @@ export const InitialBetStats = {
   lastValue: 0.0,
   wasWin: null,
   wasLoser: null,
+  wasInPlay: null,
 };
 
 export const InitialBetRules = {
