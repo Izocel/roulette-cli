@@ -82,20 +82,20 @@ export class BBCPlayer extends Player {
     // 1:1 hits or 2:1 hits
     if (winnersCount === 1) {
       if (columnsWinned) {
-        // PUSH
-        this.onCloseBets();
-        this.onOpenBet(this.bets[0]);
-      } else {
-        this.openMediumBid();
+        this.openMediumBid(); // PUSH
       }
+
       return;
     }
 
     // Both 1:1 hits OR 2:1 and 1:1 hits
     if (winnersCount === 2) {
-      if (columnsWinned) {
+      if (!columnsPlayed) {
         this.openFullBid();
-      } else {
+        return;
+      }
+
+      if (columnsWinned) {
         this.openMediumBid();
       }
 
