@@ -15,6 +15,10 @@ export async function HouseTurnAction() {
   game.lastResults.number = number;
   game.lastResults.isPositive = isPositive;
 
+  if (number === 22) {
+    let x = 10;
+  }
+
   parsePlayersBets();
   await onHouseReport();
 }
@@ -84,7 +88,7 @@ function parsePlayersBets() {
         player.lastTurnStats.totalGains += bet.gains;
         player.lastTurnStats.absoluteGains += bet.gains;
         player.lastTurnStats.winners.push(bet);
-        return;
+        continue;
       }
 
       bet.stats.wasLoser = true;

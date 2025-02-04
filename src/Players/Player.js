@@ -105,7 +105,6 @@ export class Player {
       if (!bet.isActive) {
         bet.stats.loseStreak = 0;
         bet.stats.winStreak = 0;
-        bet.isActive = false;
         return;
       }
 
