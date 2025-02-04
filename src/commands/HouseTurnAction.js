@@ -15,10 +15,6 @@ export async function HouseTurnAction() {
   game.lastResults.number = number;
   game.lastResults.isPositive = isPositive;
 
-  if (number === 22) {
-    let x = 10;
-  }
-
   parsePlayersBets();
   await onHouseReport();
 }
@@ -39,10 +35,14 @@ async function onHouseReport() {
 }
 
 function nothingGoes(isAmerican = true) {
-  const min = isAmerican ? -1 : 0;
   const max = 36;
+  const min = isAmerican ? -1 : 0;
+  const range = max - min + 1;
+  const randomBuffer = new Uint32Array(1);
+  window.crypto.getRandomValues(randomBuffer);
+  const randomNumber = randomBuffer[0] / (0xffffffff + 1);
 
-  return Math.floor(Math.random() * (max - min + 1)) + min;
+  return Math.floor(randomNumber * range) + min;
 }
 
 function parsePlayersBets() {

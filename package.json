@@ -11,7 +11,7 @@
     "roulette-cli": "src/index.js"
   },
   "scripts": {
-    "start": "roulette-cli",
+    "start": "node ./src/index.js",
     "build": "rm -rf package-lock.json && npm update --save && npm link"
   },
   "dependencies": {
