@@ -1,139 +1,175 @@
 import { appendFileSync } from "fs";
 import { join } from "path";
-import { __exportsPath, spinner, ymd } from "../commands/MainEntry.js";
+import { __exportsPath, ymd } from "../commands/MainEntry.js";
 
 export class Player {
   bets = [];
-  balance = 0.0;
-  pnlTracker = 0.0;
   name = "DefaultPlayer";
-  isTurnContainsLosers = false;
-  isTurnContainsWinners = false;
-  closeAllOnLoser = true;
+  reopenAllOnWinner = false;
+  reopenAllOnLoser = false;
+  closeAllOnWinner = false;
+  closeAllOnLoser = false;
 
-  maxBalance = 0;
-  minBalance = 0;
-  betWinCount = 0;
-  betLoseCount = 0;
+  constructor(name, balance, bets) {
+    this.name = name;
+    this.bets = bets;
+    this.gameStats.balance = balance;
+    this.onReport("INIT");
+  }
+
+  lastTurnStats = {
+    betCount: 0,
+    totalValue: 0,
+    totalGains: 0,
+    totalLost: 0,
+    absoluteGains: 0,
+    potentialGains: 0,
+    losers: [],
+    winners: [],
+  };
+
+  gameStats = {
+    balance: 0,
+    pnl: 0,
+    maxBalance: 0,
+    minBalance: 0,
+    betWinCount: 0,
+    betLoseCount: 0,
+  };
 
   async beforeHouse() {
+    await this.applyBaseStrategy();
     await this.applyStrategy();
     await this.validateStrategy();
     await this.onReport("BeforeHouse");
   }
 
-  async validateStrategy() {
-    if (this.balance < 0) {
-      console.error("Negative balance");
-      throw "...";
+  async applyStrategy() {}
+
+  async applyBaseStrategy() {
+    const requiresCloseAll =
+      (this.closeAllOnLoser && this.lastTurnStats.totalLost > 0) ||
+      (this.closeAllOnWinner && this.lastTurnStats.totalGains > 0);
+
+    const requiresReopenAll =
+      (this.reopenAllOnLoser && this.lastTurnStats.totalLost > 0) ||
+      (this.reopenAllOnWinner && this.lastTurnStats.totalGains > 0);
+
+    // If the player strategy want to closeAll
+    if (requiresCloseAll) {
+      this.onCloseBets();
     }
 
-    this.bets.forEach((b) => {
-      if (!b.isActive) {
-        b.value > 0 && spinner.warn("Inactive bet with value: " + b.name);
+    // Look for a bet that can trigger 'closeAll'
+    const hasBetsWithCloseAll = this.bets.some((bet) => {
+      return (
+        (bet.rules.closeAllOnLose && bet.stats.wasLoser) ||
+        (bet.rules.closeAllOnWin && bet.stats.wasWin)
+      );
+    });
+
+    if (hasBetsWithCloseAll) {
+      this.onCloseBets();
+    }
+
+    // Closes 'alwaysClose' or winners that has closeOnWin
+    this.bets.forEach((bet) => {
+      if (bet.rules.alwaysClose || (bet.rules.closeOnWin && bet.stats.wasWin)) {
+        this.onCloseBet(bet);
+      }
+    });
+
+    // If the player strategy want to reopenAll
+    if (requiresReopenAll) {
+      this.onOpenBets();
+    }
+
+    // Reopens 'alwaysOpen' or losers that has reopenOnLose
+    this.bets.forEach((bet) => {
+      if (
+        bet.rules.alwaysOpen ||
+        (bet.rules.reopenOnLose && bet.stats.wasLoser)
+      ) {
+        this.onOpenBet(bet);
+      }
+    });
+  }
+
+  async validateStrategy() {
+    if (this.gameStats.balance < 0) {
+      console.error(this);
+      throw "Negative balance player";
+    }
+
+    this.bets.forEach((bet) => {
+      if (!bet.isActive) {
+        bet.stats.loseStreak = 0;
+        bet.stats.winStreak = 0;
+        bet.isActive = false;
         return;
       }
 
-      if (b.value < b.rules.betMin || b.value > b.rules.betMax || b.value < 0) {
-        spinner.fail("Bet is invalid");
-        console.error(b);
-        throw "...";
+      if (bet.value < bet.rules.betMin || bet.value > bet.rules.betMax) {
+        console.error(bet);
+        throw "Invalid bet in play...";
       }
     });
   }
 
   async afterHouse() {
     await this.onReport("AfterHouse");
-
-    if (this.isTurnContainsLosers) {
-      if (this.closeAllOnLoser) {
-        this.onCloseBets();
-      }
-    }
-
-    if (this.isTurnContainsWinners === true) {
-    }
-
-    // Eval losing bets
-    for (let i = 0; i < this.bets.length; i++) {
-      const b = this.bets[i];
-      if (b.stats.isWinner) continue;
-
-      if (b.rules.closeAllOnLose) {
-        this.onCloseBets();
-        break;
-      }
-
-      this.onCloseBet(b);
-    }
-
-    this.bets.forEach((b) => {
-      if (b.rules.alwaysClose) {
-        this.onCloseBet(b);
-      }
-
-      if (b.rules.alwaysReopen) {
-        this.onOpenBet(b);
-      }
-    });
   }
 
-  onOpenBet(b, value, min, max, targets) {
-    b.isActive = true;
-    b.targets = targets ?? b.targets ?? [];
-    b.rules.betMin = Math.abs(min ?? b.rules.betMin);
-    b.rules.betMax = Math.abs(max ?? b.rules.betMax);
+  onOpenBet(bet, value, min, max, targets) {
+    bet.isActive = true;
+    bet.targets = targets ?? bet.targets ?? [];
+    bet.rules.betMin = Math.abs(min ?? bet.rules.betMin);
+    bet.rules.betMax = Math.abs(max ?? bet.rules.betMax);
 
-    value = Math.abs(value ?? b.value ?? 0.0);
-    let cost = 0;
-
-    // Balance overflowing gains
-    if (b.rules.betMax && b.value && b.value > b.rules.betMax) {
-      cost = b.value - b.rules.betMax;
-      this.balance += cost;
-      b.value = b.rules.betMax;
-      return cost;
+    value = Math.abs(value ?? bet.value ?? 0.0);
+    if (bet.rules.betMin) {
+      value = Math.max(value, bet.rules.betMin);
     }
 
-    if (b.rules.betMin) {
-      value = Math.max(value, b.rules.betMin);
+    if (bet.rules.betMax) {
+      value = Math.min(value, bet.rules.betMax);
     }
 
-    if (b.rules.betMax) {
-      value = Math.min(value, b.rules.betMax);
-    }
-
-    cost = b.value - value;
-    if (this.balance + cost < 0) {
+    const cost = bet.value - value;
+    if (this.gameStats.balance + cost < 0) {
       console.error(
         "Not enough balance to open bet:",
-        b.name,
+        bet.name,
         "\nValue:",
         value,
         "\nBalance:",
-        this.balance
+        this.gameStats.balance
       );
 
-      this.onLeave();
       throw "....";
     }
 
-    this.balance += cost;
-    b.isActive = true;
-    b.value -= cost;
+    this.gameStats.balance += cost;
+    bet.isActive = true;
+    bet.value -= cost;
 
     return cost;
   }
 
-  onCloseBet(b) {
-    this.balance += b.value;
-    b.stats.winStreak = 0;
-    b.stats.loseStreak = 0;
-    b.stats.lastValue = 0;
-    b.stats.isWinner = false;
-    b.stats.isLoser = false;
-    b.isActive = false;
-    b.value = 0.0;
+  onCloseBet(bet) {
+    const gains = bet.value;
+    this.gameStats.balance += gains;
+
+    bet.value = 0.0;
+    bet.isActive = false;
+
+    return gains;
+  }
+
+  onOpenBets() {
+    for (let i = 0; i < this.bets.length; i++) {
+      this.onOpenBet(this.bets[i]);
+    }
   }
 
   onCloseBets() {
@@ -143,30 +179,16 @@ export class Player {
   }
 
   async onReport(reportName) {
-    this.updateStats();
     console.log();
     const obj = {
-      name: this.name + " - " + reportName,
-      balance: this.balance,
-      pnlTracker: this.pnlTracker,
-      maxBalance: this.maxBalance,
-      minBalance: this.minBalance,
-      betWinCount: this.betWinCount,
-      betLoseCount: this.betLoseCount,
-      bets: this.bets.map((b) => {
-        if (!b.isActive) return;
-        return {
-          value: b.value,
-          lastGains: b.stats.lastGains,
-          active: b.isActive,
-          name: b.name,
-        };
-      }),
+      reportName: `${reportName} - ${this.name}`,
+      lastTurnStats: this.lastTurnStats,
+      gameStats: this.gameStats,
     };
-    console.log();
-    console.log(obj);
-    const filePath = join(__exportsPath, `${this.name}-Results-${ymd}.json`);
+
+    const filePath = join(__exportsPath, `${this.name}-${ymd}.json`);
     appendFileSync(filePath, JSON.stringify(obj, null, 2) + ",\n");
+    this.resetStats();
   }
 
   onLeave() {
@@ -174,9 +196,10 @@ export class Player {
     this.onReport("onLeave");
   }
 
-  updateStats() {
-    if (!this.minBalance) this.minBalance = this.balance;
-    this.minBalance = Math.min(this.balance, this.minBalance);
-    this.maxBalance = Math.max(this.balance, this.maxBalance);
+  resetStats() {
+    if (!this.minBalance) this.minBalance = this.gameStats.balance;
+    this.minBalance = Math.min(this.gameStats.balance, this.minBalance);
+    this.maxBalance = Math.max(this.gameStats.balance, this.maxBalance);
+    this.lastTurnStats = {};
   }
 }

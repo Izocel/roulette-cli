@@ -1,28 +1,30 @@
 // Updated by house.parseBets
-export const initialBetStats = {
+export const InitialBetStats = {
   winNb: 0,
   loseNb: 0,
   winStreak: 0,
   loseStreak: 0,
-  lastGains: 0.0,
   lastValue: 0.0,
-  isWinner: false,
-  isLoser: false,
+  wasWin: null,
+  wasLoser: null,
 };
 
 export const InitialBetRules = {
   betMin: null,
   betMax: null,
-  alwaysClose: true,
-  alwaysReopen: false,
-  closeAllOnLose: false,
+  closeAllOnWin: null,
+  closeAllOnLose: null,
+  alwaysClose: null,
+  closeOnWin: null,
+  alwaysOpen: null,
+  reopenOnLose: null,
 };
 
-export const BetStruct = {
-  value: 0.0, // only closeBet,openBet and house.parseBet should update this value
-  targets: [],
-  isActive: false,
+export const BaseBetStruct = {
+  value: 0.0,
+  gains: 0.0,
+  isActive: null,
   name: "Initial bet",
-  stats: { ...initialBetStats },
+  stats: { ...InitialBetStats },
   rules: { ...InitialBetRules },
 };

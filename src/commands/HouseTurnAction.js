@@ -35,44 +35,52 @@ function nothingGoes(isAmerican = true) {
 }
 
 function parsePlayersBets() {
-  game.players?.forEach((p) => {
-    p.isTurnContainsLosers = false;
-    p.isTurnContainsWinners = false;
-    p.updateStats();
+  for (let i = 0; i < game.players.length; i++) {
+    const player = game.players[i];
 
-    p.bets?.forEach((bet) => {
+    if (!player.bets?.length) {
+      console.error(player);
+      throw "No bets in play for this player...";
+    }
+
+    player.resetStats();
+    for (let j = 0; j < player.bets.length; j++) {
+      const bet = player.bets[j];
       bet.stats.lastValue = bet.value;
-      if (!bet.isActive || !bet.value) {
-        return;
+
+      if (!bet.isActive || bet.value <= 0) {
+        bet.stats.loseStreak = 0;
+        bet.stats.winStreak = 0;
+        bet.isActive = false;
+        continue;
       }
 
       // Winner case
       if (bet.targets.includes(game.lastResults.number)) {
-        p.betLoseCount++;
-        bet.stats.isWinner = true;
-        p.isTurnContainsWinners = true;
-
-        bet.stats.lastGains = bet.value * bet.payoutRatio;
-        p.pnlTracker += bet.stats.lastGains;
-        bet.value += bet.stats.lastGains;
-
+        bet.stats.wasWin = true;
         bet.stats.loseStreak = 0;
         bet.stats.winStreak++;
         bet.stats.winNb++;
+
+        bet.gain = bet.value * bet.payoutRatio;
+        bet.value += bet.gain;
+
+        player.gameStats.pnl += bet.gain;
+        player.gameStats.betWinCount++;
         return;
       }
 
-      p.betWinCount++;
-      bet.stats.isLoser = true;
-      p.isTurnContainsLosers = true;
-      bet.stats.lastGains = -bet.value;
-      p.pnlTracker += bet.stats.lastGains;
-      bet.value = 0.0;
-
+      bet.stats.wasLoser = true;
       bet.stats.winStreak = 0;
       bet.stats.loseStreak++;
       bet.stats.loseNb++;
-      p.onCloseBet(bet);
-    });
-  });
+
+      bet.gain = -bet.value;
+      bet.value = 0.0;
+
+      player.betLoseCount++;
+      player.gameStats.pnl += bet.gain;
+      player.onCloseBet(bet);
+    }
+  }
 }
