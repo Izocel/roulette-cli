@@ -36,7 +36,7 @@ async function onHouseReport() {
 }
 
 function nothingGoes(isAmerican = true) {
-  return random.uniform(isAmerican ? -1 : 0, 36);
+  return random.int(isAmerican ? -1 : 0, 36);
 }
 
 function parsePlayersBets() {
